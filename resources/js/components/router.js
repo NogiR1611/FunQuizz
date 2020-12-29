@@ -1,22 +1,27 @@
-import React,{Component} from "reactjs";
-import {BrowserRouter as Router,Route} from "react-router-dom";
+import React,{Component} from "react";
+import {BrowserRouter,Route,Switch} from "react-router-dom";
 import ReactDOM from 'react-dom';
 import Index from './index';
 import Login from './login';
-
-class Router extends Component{
+import Register from './register';
+ 
+class Routers extends Component{
     render(){
         return(
-            <Router>
-                <Route exact path="/" component={Index} />
-                <Route path="/login" component={Login} />
-            </Router>
+            <BrowserRouter>
+                <Switch>
+                <Route exact path="/" component={Login} />
+                <Route path="/home" component={() => <Index user={this.props.user} />} />
+                <Route path="/register" component={Register} />
+                </Switch>
+            </BrowserRouter>
         );
     }
 }
 
-export default Router;
+export default Routers;
 
-if (document.getElementById('root')) {
-    ReactDOM.render(<Router />, document.getElementById('root'));
+if(document.getElementById('root')){
+    let user = document.getElementById("root").getAttribute("data");
+    ReactDOM.render(<Routers user={user} />, document.getElementById('root'));
 }

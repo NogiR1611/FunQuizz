@@ -43,9 +43,14 @@ return [
 
         'api' => [
             'driver' => 'token',
-            'provider' => 'users',
-            'hash' => false,
+            'provider' => 'register',
+            'hash' => true,
         ],
+
+        'register' => [
+            'driver' => 'session',
+            'provider' => 'register'
+        ]
     ],
 
     /*
@@ -66,9 +71,9 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'register' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Register::class
         ],
 
         // 'users' => [
