@@ -1,0 +1,35 @@
+body{
+    height: 100%;
+}
+
+.bg-login{
+    height: 692px;
+    background-color: #EAF1E6;
+}
+
+.form-login{
+    margin: auto auto;
+    background-color: white;
+}
+
+.form-login p{
+    text-align: center;
+}
+
+.form-login button{
+    justify-content: center;
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px solid black;
+}
+
+.card img{
+    width: 300px;
+    height: 95px;
+}
+
+.component-login{
+    border: 1px solid black;
+}

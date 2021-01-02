@@ -1,9 +1,10 @@
 import React,{Component} from "react";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
 import ReactDOM from 'react-dom';
-import Index from './index';
-import Login from './login';
-import Register from './register';
+import Home from './pages/home';
+import Login from './pages/login';
+import Register from './pages/register';
+import PrivateRouter from './privateRouter';
  
 class Routers extends Component{
     render(){
@@ -11,7 +12,7 @@ class Routers extends Component{
             <BrowserRouter>
                 <Switch>
                 <Route exact path="/" component={Login} />
-                <Route path="/home" component={() => <Index user={this.props.user} />} />
+                <PrivateRouter path="/home" component={Home} />
                 <Route path="/register" component={Register} />
                 </Switch>
             </BrowserRouter>
@@ -22,6 +23,5 @@ class Routers extends Component{
 export default Routers;
 
 if(document.getElementById('root')){
-    let user = document.getElementById("root").getAttribute("data");
-    ReactDOM.render(<Routers user={user} />, document.getElementById('root'));
+    ReactDOM.render(<Routers />,document.getElementById('root'));
 }

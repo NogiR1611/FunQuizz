@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import {Redirect} from "react-router-dom";
 import axios from "axios";
 
 class Register extends Component{
@@ -6,7 +7,8 @@ class Register extends Component{
         username : "",
         email : "",
         password : "",
-        confirm_password : ""
+        confirm_password : "",
+        redirect : false
     }
 
     onSubmit = (event) => {
@@ -24,13 +26,19 @@ class Register extends Component{
         }
         else{
             axios.post('/register',data)
-            .then(res => console.log(res))
+            .then(res =>{ 
+                console.log(res);
+                this.setState({ redirect : true });
+            })
             .catch(err => console.log(err));
         }
     }
 
     render(){
         const {username,email,password,confirm_password} = this.state;
+        if(redirect){
+            return <Redirect to="/" />;
+        }
         return (
             <React.Fragment>
                 <span id="message"></span>

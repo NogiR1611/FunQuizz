@@ -13,7 +13,8 @@ use App\Http\Controllers\ReactController;
 |
 */
 Route::get('/{path?}',[ReactController::class,'show']);
-Route::get('/use-api',[ReactController::class,'user_json']);
+
+
 Route::post('/register',[ReactController::class,'register_store']);
 Route::post('/login',[ReactController::class,'login_store']);
 Route::post('/logout',[ReactController::class,'logout']);

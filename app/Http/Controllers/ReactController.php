@@ -9,16 +9,13 @@ use DB;
 
 class ReactController extends Controller
 {
-    public function show (Request $request) {
-        $username = $request->session()->get("username_login");
-        return view('index',[ 'username' => $username ]);
+    public function show () {
+        return view('index');
     }
  
     public function user_json(Request $request){
-        $user = DB::table('register')->get();
-        return response() -> json([
-            'data' => $user
-        ],200);
+        $user = Register::all();
+        return response()->json($user);
     }
 
     public function register_store(Request $request){
