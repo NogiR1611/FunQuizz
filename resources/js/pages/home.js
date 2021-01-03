@@ -1,6 +1,9 @@
 import React,{Component} from 'react';
 import {Redirect} from 'react-router-dom';
 import Header from '../components/header';
+import Footer from '../components/footer';
+import "../css/style.css";
+
 
 class Home extends Component{
     constructor(props){
@@ -15,12 +18,34 @@ class Home extends Component{
 
     componentWillMount(){
         let state = localStorage["appState"];
+
         if (state){
             let AppState = JSON.parse(state);
             this.setState({
                 isLoggedIn : AppState.isLoggedIn,
                 username : AppState.username
             });
+        }
+    }
+
+    componentDidMount(){
+        let time = new Date();
+        let hours = time.getHours();
+
+        if(hours<4){
+            document.getElementById("salam").innerHTML = "Selamat Malam";
+        }
+        else if(hours<11){
+            document.getElementById("salam").innerHTML = "Selamat Pagi";
+        }
+        else if(hours<15){
+            document.getElementById("salam").innerHTML = "Selamat Siang";
+        }
+        else if(hours<19){
+            document.getElementById("salam").innerHTML = "Selamat Sore";
+        }
+        else{
+            document.getElementById("salam").innerHTML = "Selamat Malam";
         }
     }
 
@@ -42,25 +67,25 @@ class Home extends Component{
 
     render(){
         const {username,redirect} = this.state;
+
         if (redirect){
             return <Redirect to="/" />;
         }
 
         return (
             <React.Fragment>
-                <Header />
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                        home
-                        </div>
-                        <div class="col-md-4">
-                        {username}
-                        </div>
+                <div class="container d-flex align-items-center">
+                    <div class="center-component">
+                        <img src={"http://localhost:8000/images/logo.png"} alt="" />
+                        <p>Hai {username},<span id="salam"></span></p>
+                        <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
+                        <a href="/" className="option-menu" id="mulai">Mulai Kuis</a>
+                        <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
+                        <a href="/" className="option-menu" id="keluar">Keluar</a>
                     </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button onClick={this.Logout}>Logout</button>
                 </div>
+                <button onClick={this.Logout}>Logout</button>
+                <Footer />
             </React.Fragment>
         );
     }

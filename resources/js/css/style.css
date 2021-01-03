@@ -1,5 +1,14 @@
 body{
     height: 100%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container{
+    height: 100%;
+    padding: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-login{
@@ -10,6 +19,43 @@ body{
 .form-login{
     margin: auto auto;
     background-color: white;
+}
+
+
+.list-materi{
+    padding: 10px 0px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.item-materi{
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.item-materi a{
+    text-decoration: none;
+}
+
+.center-component{
+    margin: auto auto;
+    background-color: white;
+    text-align: center;
+    padding: 60px 10px;
+}
+
+.center-component a{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    color: #FFF;
+    margin: 10px 0px;
+}
+
+.center-component p{
+    font-size: 20px;
 }
 
 .form-login p{
@@ -32,4 +78,55 @@ body{
 
 .component-login{
     border: 1px solid black;
+}
+
+.option-menu{
+    display: block;
+    transition: all .3s;
+    font-size: 24px;
+}
+
+.nilai-skor{
+    font-size: 36px;
+}
+
+#belajar{
+    background-color: #FABC0B;
+    border: 1px solid #FABC0B;
+}
+
+#belajar:hover{
+    background-color: #C8940A;
+}
+
+#mulai{
+    background-color: #465A8F;
+    border: 1px solid #465A8F;
+}
+
+#mulai:hover{
+    background-color: #36436A;
+}
+
+#lihat-skor{
+    background-color: #29BBFE;
+    border: 1px solid #29BBFE;
+}
+
+#lihat-skor:hover{
+    background-color: #49ADB2;
+}
+
+#keluar{
+    background-color: #D32112;
+    border: 1px solid #D32112;
+}
+
+#keluar:hover{
+    background-color: #BB1A04;
+}
+
+.image-list{
+    width: 150px;
+    height: 150px;
 }

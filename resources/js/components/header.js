@@ -13,9 +13,6 @@ class Header extends Component{
                 <div className="d-flex justify-content-center">
                     <img src={"http://localhost:8000/images/logo.png"} alt="" />
                 </div>
-                <div className="w-10 d-inline-block component-login">
-
-                </div>
             </div>
         );
     }
