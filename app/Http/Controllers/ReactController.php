@@ -29,6 +29,26 @@ class ReactController extends Controller
         return redirect()->back();
     }
 
+    public function materi_store($id,Request $request){
+        $url = __DIR__.'/materi.json';
+        $datas = file_get_contents($url);
+        $data = json_decode($datas,true);
+
+        return response()->json([
+            'id'=>$data[$id]['id'],
+            'name'=>$data[$id]['name']
+        ]);
+        /*
+        $data = array_filter($data);
+
+        var_dump($data);
+
+        foreach($data as $name => $item) {
+            var_dump($item['id'], $item['name']); // $name is the Name of Room
+        }
+        */
+    }
+
     public function login_store(Request $request){
         $data = Register::where('email',$request->email)->firstOrFail();
         if($data){

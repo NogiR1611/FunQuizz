@@ -1,44 +1,41 @@
 [
     {
-        "id"        :   1,
-        "name"      :   "Tas",
-        "image"     :   "http://localhost:8000/images/materi/tas.jpg",
-        "deskripsi" :  ""
+        "id"    : 0,
+        "name"  : "Tas",
+        "image" : "http://localhost:8000/images/materi/tas.jpg"
     },
     {
-        "id"        :   2,
-        "name"      :   "Mobil",
-        "image"     :   "http://localhost:8000/images/materi/mobil.jpg",
-        "deskripsi" :   ""
+        "id"    : 1,
+        "name"  : "Mobil",
+        "image" : "http://localhost:8000/images/materi/mobil.jpg"
     },
     {
-        "id"        :   3,
-        "name"      :   "Motor",
-        "image"     :   "http://localhost:8000/images/materi/motor.jpg",
-        "deskripsi" :   ""
+        "id"    : 2,
+        "name"  : "Motor",
+        "image" : "http://localhost:8000/images/materi/motor.jpg"
     },
     {
-        "id"    : 4,
+        "id"    : 3,
         "name"  : "Pensil",
         "image" : "http://localhost:8000/images/materi/pensil.jpg"
     },
     {
-        "id"    : 5,
+        "id"    : 4,
         "name"  : "Lemari",
         "image" : "http://localhost:8000/images/materi/lemari.jpg"
     },
     {
-        "id"    : 6,
+        "id"    : 5,
         "name"  : "Rak",
         "image" : "http://localhost:8000/images/materi/rak.jpg"
     },
     {
-        "id"    : 7,
+        "id"    : 6,
         "name"  : "Kursi",
         "image" : "http://localhost:8000/images/materi/kursi.jpg"
     },
     {
-        "id"    : 8,
+        "id"    : 7,
         "name"  : "Papan Tulis",
         "image" : "http://localhost:8000/images/materi/papan-tulis.jpg"
     }

@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import {Link} from "react-router-dom";
 import PostData from "../data/materi.json";
 import "../css/style.css";
 
@@ -12,11 +13,11 @@ class ListMateri extends Component{
                     <div className="row list-materi">
                         {PostData.map( (postDetail,index)=>{
                             return (
-                                <div className="col-md-3 item-materi">
-                                    <a href={'/list-materi/' + postDetail.id} >
+                                <div className="col-md-3 item-materi" key={index}>
+                                    <Link to={'/list-materi/' + postDetail.id } >
                                         <img src={postDetail.image} className="image-list" alt="" />
                                         <h1>{postDetail.name}</h1>
-                                    </a>
+                                    </Link>
                                 </div>
                             );
                         })}

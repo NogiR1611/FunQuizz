@@ -13,6 +13,7 @@ use App\Http\Controllers\ReactController;
 |
 */
 Route::get('/{path?}',[ReactController::class,'show']);
+Route::get('/list-materi/json/{id}',[ReactController::class,'materi_store']);
 
 
 Route::post('/register',[ReactController::class,'register_store']);

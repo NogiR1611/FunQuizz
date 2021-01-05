@@ -16,8 +16,8 @@ class Routers extends Component{
                 <Switch>
                 <Route exact path="/" component={Login} />
                 <PrivateRouter path="/home" component={Home} />
-                <PrivateRouter path="/list-materi" component={ListMateri} />
-                <PrivateRouter path="/list-materi/:id" component={Materi} />
+                <PrivateRouter exact path="/list-materi" component={ListMateri} />
+                <PrivateRouter path="/list-materi/:id" exact component={Materi} />
                 <PrivateRouter path="/skor-terakhir" component={SkorTerakhir} />
                 <Route path="/register" component={Register} />
                 </Switch>
