@@ -55,7 +55,13 @@ class Home extends Component{
             email : "",
             username : ""
         };
+        let userScore = {
+            nilai : 0,
+            true : 0,
+            false : 0
+        }
         
+        localStorage["userScore"] = JSON.stringify(userScore);
         localStorage["appState"] = JSON.stringify(appState);
         this.setState({
             isLoggedIn : false,

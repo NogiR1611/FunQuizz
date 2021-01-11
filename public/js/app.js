@@ -6414,7 +6414,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "body{\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.bg-login{\r\n    height: 692px;\r\n    background-color: #EAF1E6;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n}\r\n\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    display: flex;\r\n    align-self: center;\r\n    justify-content: center;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.center-component a{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n}\r\n\r\n.center-component p{\r\n    font-size: 20px;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.card{\r\n    padding: 20px;\r\n    box-shadow: 1px 1px 1px 1px solid black;\r\n}\r\n\r\n.card img{\r\n    width: 300px;\r\n    height: 95px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n.option-menu{\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n}\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}", ""]);
+exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.bg-login{\r\n    height: 692px;\r\n    background-color: #EAF1E6;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n}\r\n\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    display: flex;\r\n    align-self: center;\r\n    justify-content: center;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.center-component a{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n}\r\n\r\n.center-component p{\r\n    font-size: 20px;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.card{\r\n    padding: 20px;\r\n    box-shadow: 1px 1px 1px 1px solid black;\r\n}\r\n\r\n.card img{\r\n    width: 300px;\r\n    height: 95px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n.option-menu{\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n}\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}", ""]);
 
 // exports
 
@@ -72293,7 +72293,7 @@ if(false) {}
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Tas\",\"image\":\"http://localhost:8000/images/materi/tas.jpg\",\"deskripsi\":\"Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit, kain, dan lain-lain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.jpg\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.jpg\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.jpg\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.jpg\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.jpg\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lain\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.jpg\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/papan-tulis.jpg\",\"deskripsi\":\"komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor, biasanya dilengkapi dengan baterai yang dapat diisi ulang\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Ransel\",\"image\":\"http://localhost:8000/images/materi/ransel.png\",\"deskripsi\":\"Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit, kain, dan lain-lain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.png\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.png\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.png\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.png\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lain\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.png\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/laptop.png\",\"deskripsi\":\"komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor, biasanya dilengkapi dengan baterai yang dapat diisi ulang\"}]");
 
 /***/ }),
 
@@ -72372,6 +72372,12 @@ var Home = /*#__PURE__*/function (_Component) {
         email: "",
         username: ""
       };
+      var userScore = {
+        nilai: 0,
+        "true": 0,
+        "false": 0
+      };
+      localStorage["userScore"] = JSON.stringify(userScore);
       localStorage["appState"] = JSON.stringify(appState);
 
       _this.setState({
@@ -73069,7 +73075,10 @@ var SkorTerakhir = /*#__PURE__*/function (_Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      username: ""
+      score: 0,
+      username: "",
+      benar: 0,
+      salah: 0
     };
     return _this;
   }
@@ -73077,26 +73086,44 @@ var SkorTerakhir = /*#__PURE__*/function (_Component) {
   _createClass(SkorTerakhir, [{
     key: "componentWillMount",
     value: function componentWillMount() {
-      var state = localStorage["appState"];
+      var state = localStorage["userScore"];
 
       if (state) {
-        var AppState = JSON.parse(state);
+        var UserScore = JSON.parse(state);
         this.setState({
-          username: AppState.username
+          benar: UserScore["true"],
+          salah: UserScore["false"],
+          score: UserScore.nilai
         });
       }
     }
   }, {
     key: "render",
     value: function render() {
-      var username = this.state.username;
+      var _this$state = this.state,
+          username = _this$state.username,
+          score = _this$state.score,
+          benar = _this$state.benar,
+          salah = _this$state.salah;
+      var statement = "";
+
+      if (score === 0) {
+        statement = "Yah kamu belum kerjain soalnya";
+      } else if (score < 60) {
+        statement = "Haduh kamu harus belajar lebih rajin lagi yah";
+      } else if (score < 80) {
+        statement = "Hasil kamu sudah lumayan jadi tingkatkan lagi yah";
+      } else {
+        statement = "Waw bagus sekali hasil kamu";
+      }
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container d-flex align-items-center"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "center-component"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hai ", username, ",Skor terakhir kamu yaitu : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Benar - 36 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Salah - 4 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sehingga kamu memiliki nilai skor kamu :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hai ", username, ",Skor terakhir kamu yaitu : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Benar - ", benar, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Salah - ", salah, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sehingga kamu memiliki nilai skor yaitu :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "nilai-skor"
-      }, "90"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Waw kamu cerdas sekali"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tetap semangat terus belajarnya yah")));
+      }, score), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, statement), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tetap semangat terus belajarnya yah")));
     }
   }]);
 
@@ -73120,6 +73147,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _data_soal_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/soal.json */ "./resources/js/data/soal.json");
 var _data_soal_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/soal.json */ "./resources/js/data/soal.json", 1);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -73143,6 +73172,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -73226,34 +73256,49 @@ var Soal = /*#__PURE__*/function (_Component) {
           Score = _this$state.Score,
           showScore = _this$state.showScore,
           currentQuestion = _this$state.currentQuestion;
-      var nilai = Score / 10 * 100;
+      var totalQuestion = _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length;
+      var result = Score / totalQuestion * 100;
+      var falseAnswer = totalQuestion - Score;
       var state = "";
 
-      if (nilai < 70) {
+      if (result < 70) {
         state = "kamu perlu terus belajar";
       } else {
         state = "kamu cerdas banget";
       }
 
+      var value = {
+        nilai: result,
+        "true": Score,
+        "false": falseAnswer
+      };
+      localStorage["userScore"] = JSON.stringify(value);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: ""
       }, showScore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: ""
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jawaban benar anda yaitu ", Score, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, nilai), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, state)) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: ""
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jawaban benar kamu yaitu ", Score, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban salah kamu yaitu ", falseAnswer, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, result), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, state)) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-center m-5"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Soal ke - ", currentQuestion + 1, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "row"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-sm-4"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].imageQuestion,
+        className: "image-question",
         alt: ""
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Apakah nama benda yang ada di atas ?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: ""
-      }, _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].answerOptions.map(function (answerOption, index) {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-sm-8"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "fs-2"
+      }, "Apakah nama benda yang ada di samping ?"), _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].answerOptions.map(function (answerOption, index) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           onClick: function onClick() {
             return _this2.handleAnswerButtonClick(answerOption.isCorrect);
           },
           key: index
         }, answerOption.answerText);
-      }))));
+      })))));
     }
   }]);
 

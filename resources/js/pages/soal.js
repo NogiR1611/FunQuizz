@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import Questions from "../data/soal.json";
+import "../css/style.css";
 
 class Soal extends Component{
     constructor(){
@@ -8,7 +9,7 @@ class Soal extends Component{
             Data : [],
             currentQuestion : 0,
             Score : 0,
-            showScore : false
+            showScore : false,
         }
     }
 
@@ -56,38 +57,52 @@ class Soal extends Component{
 
     render(){
         const {Score,showScore,currentQuestion} = this.state;
-        const nilai = Score/10 * 100;
+        let totalQuestion = Questions.length;
+        let result = Score/totalQuestion * 100;
+        let falseAnswer = totalQuestion - Score;
         let state = "";
-        if (nilai<70){
+        if (result<70){
             state = "kamu perlu terus belajar";
         }
         else{
             state = "kamu cerdas banget";
         }
+        let value = {
+            nilai : result,
+            true : Score,
+            false : falseAnswer
+        };
 
+        localStorage["userScore"] = JSON.stringify(value);
         return (
             <div className="">
                 {showScore ? (
                     <div className="">
-                        <p>jawaban benar anda yaitu {Score} dari {Questions.length} </p>
-                        <p>{nilai}</p>
+                        <p>jawaban benar kamu yaitu {Score} dari {Questions.length} </p>
+                        <p>Jawaban salah kamu yaitu {falseAnswer} dari {Questions.length}</p>
+                        <p>{result}</p>
                         <p>{state}</p>
                     </div>
                 ) : (
                 <div>
-                    <div className="">
-                        <img src={Questions[currentQuestion].imageQuestion} alt="" />
-                        <p>Apakah nama benda yang ada di atas ?</p>
+                    <div className="text-center m-5">
+                        <h2>Soal ke - {currentQuestion + 1} dari {Questions.length}</h2>
                     </div>
-                    <div className="">
-                        {Questions[currentQuestion].answerOptions.map((answerOption,index) => (
-                            <button
-                                onClick={() => this.handleAnswerButtonClick(answerOption.isCorrect)}
-                                key={index}
-                            >
-                                {answerOption.answerText}
-                            </button>
-                        ))}
+                    <div class="row">
+                        <div className="col-sm-4">
+                            <img src={Questions[currentQuestion].imageQuestion} className="image-question" alt="" />
+                        </div>
+                        <div className="col-sm-8">
+                            <p className="fs-2">Apakah nama benda yang ada di samping ?</p>
+                            {Questions[currentQuestion].answerOptions.map((answerOption,index) => (
+                                <button
+                                    onClick={() => this.handleAnswerButtonClick(answerOption.isCorrect)}
+                                    key={index}
+                                >
+                                    {answerOption.answerText}
+                                </button>
+                            ))}
+                        </div>
                     </div>
                 </div>
                 )}
