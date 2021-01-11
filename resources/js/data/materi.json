@@ -3,43 +3,48 @@
         "id"        :   1,
         "name"      :   "Tas",
         "image"     :   "http://localhost:8000/images/materi/tas.jpg",
-        "deskripsi" :  ""
+        "deskripsi" :   "Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit, kain, dan lain-lain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain."
     },
     {
         "id"        :   2,
         "name"      :   "Mobil",
         "image"     :   "http://localhost:8000/images/materi/mobil.jpg",
-        "deskripsi" :   ""
+        "deskripsi" :   "Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya"
     },
     {
         "id"        :   3,
-        "name"      :   "Motor",
+        "name"      :   "Sepeda Motor",
         "image"     :   "http://localhost:8000/images/materi/motor.jpg",
-        "deskripsi" :   ""
+        "deskripsi" :   "Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya"
     },
     {
-        "id"    : 4,
-        "name"  : "Pensil",
-        "image" : "http://localhost:8000/images/materi/pensil.jpg"
+        "id"        :   4,
+        "name"      : "Pensil",
+        "image"     : "http://localhost:8000/images/materi/pensil.jpg",
+        "deskripsi" : "Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras"
     },
     {
-        "id"    : 5,
-        "name"  : "Lemari",
-        "image" : "http://localhost:8000/images/materi/lemari.jpg"
+        "id"        : 5,
+        "name"      : "Lemari",
+        "image"     : "http://localhost:8000/images/materi/lemari.jpg",
+        "deskripsi" : "Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian."
     },
     {
-        "id"    : 6,
-        "name"  : "Rak",
-        "image" : "http://localhost:8000/images/materi/rak.jpg"
+        "id"        : 6,
+        "name"      : "Rak",
+        "image"     : "http://localhost:8000/images/materi/rak.jpg",
+        "deskripsi" : "Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lain"
     },
     {
-        "id"    : 7,
-        "name"  : "Kursi",
-        "image" : "http://localhost:8000/images/materi/kursi.jpg"
+        "id"        : 7,
+        "name"      : "Kursi",
+        "image"     : "http://localhost:8000/images/materi/kursi.jpg",
+        "deskripsi" : "Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu."
     },
     {
-        "id"    : 8,
-        "name"  : "Papan Tulis",
-        "image" : "http://localhost:8000/images/materi/papan-tulis.jpg"
+        "id"        : 8,
+        "name"      : "Laptop",
+        "image"     : "http://localhost:8000/images/materi/papan-tulis.jpg",
+        "deskripsi" : "komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor, biasanya dilengkapi dengan baterai yang dapat diisi ulang"
     }
 ]

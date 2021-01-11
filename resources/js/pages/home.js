@@ -79,7 +79,7 @@ class Home extends Component{
                         <img src={"http://localhost:8000/images/logo.png"} alt="" />
                         <p>Hai {username},<span id="salam"></span></p>
                         <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
-                        <a href="/" className="option-menu" id="mulai">Mulai Kuis</a>
+                        <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
                         <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
                         <a href="/" className="option-menu" id="keluar">Keluar</a>
                     </div>

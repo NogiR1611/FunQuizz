@@ -1,0 +1,92 @@
+[
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/ransel.png",
+        "answerOptions"  : [
+            { "answerText" : "Ransel","isCorrect" : true },
+            { "answerText" : "Baju","isCorrect" : false },
+            { "answerText" : "Celana","isCorrect" : false},
+            { "answerText" : "Motor","isCorrect" : false}
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/mobil.png",
+        "answerOptions"  : [
+            { "answerText" : "Tas","isCorrect" : false },
+            { "answerText" : "Mobil","isCorrect" : true },
+            { "answerText" : "Laptop","isCorrect" : false},
+            { "answerText" : "Traktor","isCorrect" : false}
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/motor.png",
+        "answerOptions"  : [
+            { "answerText" : "Mobil","isCorrect" : false },
+            { "answerText" : "Baju","isCorrect" : false },
+            { "answerText" : "Celana","isCorrect" : false },
+            { "answerText" : "Motor","isCorrect" : true }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/sabun.png",
+        "answerOptions"  : [
+            { "answerText" : "Wajan","isCorrect" : false },
+            { "answerText" : "Celana","isCorrect" : false },
+            { "answerText" : "Sabun","isCorrect" : true},
+            { "answerText" : "Handuk","isCorrect" : false}
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/buku.png",
+        "answerOptions"  : [
+            { "answerText" : "Baju","isCorrect" : false },
+            { "answerText" : "Celana","isCorrect" : false },
+            { "answerText" : "Handuk","isCorrect" : false },
+            { "answerText" : "Buku","isCorrect" : true }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/gelas.png",
+        "answerOptions"  : [
+            { "answerText" : "Handphone","isCorrect" : false },
+            { "answerText" : "Gelas","isCorrect" : true },
+            { "answerText" : "Panci","isCorrect" : false },
+            { "answerText" : "Pensil","isCorrect" : false }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/cangkir.png",
+        "answerOptions"  : [
+            { "answerText" : "Helikopter","isCorrect" : false },
+            { "answerText" : "Rak","isCorrect" : false },
+            { "answerText" : "Cangkir","isCorrect" : true },
+            { "answerText" : "Pesawat","isCorrect" : false }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/gitar.png",
+        "answerOptions"  : [
+            { "answerText" : "Gitar","isCorrect" : true },
+            { "answerText" : "Pesawat","isCorrect" : false },
+            { "answerText" : "Piring","isCorrect" : false },
+            { "answerText" : "Pulpen","isCorrect" : false }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/handphone.png",
+        "answerOptions"  : [
+            { "answerText" : "Jam","isCorrect" : false },
+            { "answerText" : "Kasur","isCorrect" : false },
+            { "answerText" : "Handphone","isCorrect" : true },
+            { "answerText" : "Kursi","isCorrect" : false }
+        ]
+    },
+    {
+        "imageQuestion" : "http://localhost:8000/images/materi/handuk.png",
+        "answerOptions"  : [
+            { "answerText" : "Traktor","isCorrect" : false },
+            { "answerText" : "Handuk","isCorrect" : true },
+            { "answerText" : "Cangkir","isCorrect" : false },
+            { "answerText" : "Pesawat","isCorrect" : false }
+        ]
+    }
+]

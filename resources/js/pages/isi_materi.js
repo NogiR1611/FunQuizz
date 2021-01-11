@@ -7,7 +7,8 @@ class Materi extends Component{
         super(props);
         this.state = {
             name : "",
-            image : ""
+            image : "",
+            description : ""
         }
     }
 
@@ -16,15 +17,16 @@ class Materi extends Component{
         
         this.setState({
             name : PostData[id-1]['name'],
-            image : PostData[id-1]['image']
+            image : PostData[id-1]['image'],
+            description : PostData[id-1]['deskripsi']
         })
     }
 
     render(){
-        const {name,image} = this.state;
+        const {name,image,description} = this.state;
         return (
             <div className="item-page">
-                <div className="text-center fs-2">
+                <div className="text-center m-5">
                     <h3>{name}</h3>
                 </div>
                 <div className="row">
@@ -32,7 +34,7 @@ class Materi extends Component{
                         <img src={image} className="image-item" alt="" />
                     </div>
                     <div className="col">
-                        <p>helo</p>
+                        <p className="description">{description}</p>
                     </div>
                 </div>
             </div>

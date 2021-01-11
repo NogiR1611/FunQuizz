@@ -6,6 +6,7 @@ import Login from './pages/login';
 import Register from './pages/register';
 import ListMateri from './pages/list_materi';
 import Materi from './pages/isi_materi';
+import Soal from './pages/soal';
 import SkorTerakhir from './pages/skor_terakhir';
 import PrivateRouter from './privateRouter';
  
@@ -19,6 +20,7 @@ class Routers extends Component{
                 <PrivateRouter exact path="/list-materi" component={ListMateri} />
                 <PrivateRouter path="/list-materi/:id" exact component={Materi} />
                 <PrivateRouter path="/skor-terakhir" component={SkorTerakhir} />
+                <PrivateRouter path="/pertanyaan" component={Soal} />
                 <Route path="/register" component={Register} />
                 </Switch>
             </BrowserRouter>
