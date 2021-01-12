@@ -3,6 +3,8 @@ html{
 }
 
 body{
+    background-image: url("../asset/img/bg.png");
+    background-size: 100%;
     height: 100%;
     font-family: 'Permanent Marker', cursive;
 }
@@ -15,22 +17,23 @@ body{
     align-items: center;
 }
 
-.bg-login{
-    height: 692px;
-    background-color: #EAF1E6;
-}
-
 .form-login{
     margin: auto auto;
     background-color: white;
+    border-radius: 10px;
 }
 
+.home{
+    background-image: url("../asset/img/bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .list-materi{
     padding: 10px 0px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
+    color: white;
 }
 
 .item-materi{
@@ -40,6 +43,7 @@ body{
 
 .item-materi a{
     text-decoration: none;
+    color: white;
 }
 
 .center-component{
@@ -49,17 +53,23 @@ body{
     padding: 60px 10px;
 }
 
-.center-component a{
+.option-menu{
     border: 1px solid black;
     border-radius: 8px;
     padding: 8px;
     text-decoration: none;
     color: #FFF;
     margin: 10px 0px;
+    display: block;
+    transition: all .3s;
+    font-size: 24px;
+    width: 350px;
+    text-align: center;
 }
 
-.center-component p{
+.home p{
     font-size: 20px;
+    color: #F0ECE3;
 }
 
 .form-login p{
@@ -70,25 +80,15 @@ body{
     justify-content: center;
 }
 
-.card{
-    padding: 20px;
-    box-shadow: 1px 1px 1px 1px solid black;
-}
-
-.card img{
-    width: 300px;
-    height: 95px;
+.home img{
+    width: 500px;
+    height: 150px;
 }
 
 .component-login{
     border: 1px solid black;
 }
 
-.option-menu{
-    display: block;
-    transition: all .3s;
-    font-size: 24px;
-}
 
 .nilai-skor{
     font-size: 36px;
@@ -101,6 +101,7 @@ body{
 
 #belajar:hover{
     background-color: #C8940A;
+    color: #9C978B;
 }
 
 #mulai{
@@ -110,6 +111,7 @@ body{
 
 #mulai:hover{
     background-color: #36436A;
+    color: #9C978B;
 }
 
 #lihat-skor{
@@ -119,6 +121,7 @@ body{
 
 #lihat-skor:hover{
     background-color: #49ADB2;
+    color: #9C978B;
 }
 
 #keluar{
@@ -128,6 +131,7 @@ body{
 
 #keluar:hover{
     background-color: #BB1A04;
+    color: #9C978B;
 }
 
 .image-list{
@@ -157,4 +161,65 @@ body{
     margin: 0 auto;
     position: relative;
     display: block;
+}
+
+.button-answer{
+    display: block;
+    margin: 10px 10px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #287EAF;
+    border:5px solid #57C0EB;
+    transition : all .3s;
+    color: white;
+}
+
+.button-answer:focus{
+    outline: 0;
+    border: 5px solid #287EAF;
+  }
+
+.button-answer:hover{
+    background-color: #41B2A6;
+}
+
+.soal-container{
+    margin-top: 150px;
+}
+
+.result-score{
+    font-size: 28px;
+    color: white;
+}
+
+.button-navigation{
+    margin:0px 80px;
+    text-decoration: none;
+    color: #F3F9F7;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#try-quiz{
+    background-color: #0EA2FC;
+    border: 1px solid #0EA2FC;
+}
+
+#try-quiz:hover{
+    background-color: #1E8DAD;
+    border: 1px solid #1E8DAD;
+    color: #CCD1D2;
+}
+
+#back-menu{
+    background-color: #F3B205;
+    border: 1px solid #F3B205;
+}
+
+#back-menu:hover{
+    background-color: #D39510;
+    border: 1px solid #D39510;
+    color: #CCD1D2;
 }

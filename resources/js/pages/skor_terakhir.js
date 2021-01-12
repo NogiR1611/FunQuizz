@@ -13,9 +13,15 @@ class SkorTerakhir extends Component{
     }
 
     componentWillMount(){
-        let state = localStorage["userScore"];
-        if (state) {
-            let UserScore = JSON.parse(state);
+        let user = localStorage["appState"];
+        if(user) {
+            let User = JSON.parse(user);
+            this.setState({ username:User.username })
+        }
+
+        let score = localStorage["userScore"];
+        if (score) {
+            let UserScore = JSON.parse(score);
             this.setState({
                 benar : UserScore.true,
                 salah : UserScore.false,
@@ -37,20 +43,24 @@ class SkorTerakhir extends Component{
             statement = "Hasil kamu sudah lumayan jadi tingkatkan lagi yah";
         }
         else{
-            statement = "Waw bagus sekali hasil kamu";
+            statement = "Waw bagus sekali hasil kamu dan terus pertahankan belajarnya";
         }
         return (
-            <div className="container d-flex align-items-center">
-                <div className="center-component">
-                    <p>Hai {username},Skor terakhir kamu yaitu : </p>
+            <container>
+                <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center result-score">
+                    <p>Hai {username},skor terakhir kamu yaitu : </p>
                     <p>Jawaban Benar - {benar} </p>
                     <p>Jawaban Salah - {salah} </p>
                     <p>Sehingga kamu memiliki nilai skor yaitu :</p>
                     <span className="nilai-skor">{score}</span><br/>
                     <p>{statement}</p>
                     <p>Tetap semangat terus belajarnya yah</p>
+                    <div>
+                        <a href="/pertanyaan" className="button-navigation" id="try-quiz">Coba kuis</a>
+                        <a href="/home" className="button-navigation" id="back-menu">Kembali</a>
+                    </div>
                 </div>
-            </div>
+            </container>
         );
     }
 }

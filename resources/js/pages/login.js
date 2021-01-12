@@ -8,7 +8,6 @@ class Login extends Component{
         super(props);
         this.state = {
             username : "",
-            email : "",
             password : "",
             redirect : props.redirect,
             isLoggedIn : false
@@ -27,75 +26,51 @@ class Login extends Component{
     onSubmit = (event) => {
         event.preventDefault();
         const data = {
-            email : this.state.email,
-            password : this.state.password
+            username : this.state.username
         };
 
-        axios.post('/login',data)
-        .then(res =>{
-            let userData = {
-                id : res.data.id,
-                username : res.data.username,
-                email : res.data.email
-            };
-
-            let appState = {
-                isLoggedIn : true,
-                username : userData.username,
-                email : userData.email
-            };
-            localStorage["appState"] = JSON.stringify(appState);
-            this.setState({
-                isLoggedIn : appState.isLoggedIn,
-                redirect : true,
-                username : appState.username
-            });
-        })
-        .catch(err => console.log(err));
+        let appState = {
+            isLoggedIn : true,
+            username : data.username
+        };
+        
+        localStorage["appState"] = JSON.stringify(appState);
+        this.setState({
+            isLoggedIn : appState.isLoggedIn,
+            redirect : true,
+            username : appState.username
+        });
     }
 
     render(){
-        const {email,password,redirect} = this.state;
+        const {username,redirect} = this.state;
         const {from} = this.props.location.state || {from: {pathname : '/home'}};
 
         if (redirect){
             return (<Redirect to={from}/>);
         }
         return (
-            <container>
-                <div className="bg-login row rounded">
+                <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center bg-login">
                 <form className="p-3 border col-sm-4 form-login" onSubmit={this.onSubmit}>
-                    <p className="align-middle">Ayo masukin username dan password kamu</p>
+                    <p className="align-middle fs-3">Ayo masukin nama kamu</p>
                     <input type="hidden" name="csrf-token" value="{{{ csrf_token() }}}" />
-                    <div className="mb-8">
-                        <label class="form-label">Email : </label><br/>
+                    <div className="text-center mb-8">
+                        <label class="form-label fs-5">Nama : </label><br/>
                         <input
                             class="form-control"
                             type="text"
-                            value={email}
-                            onChange={event => this.setState({ email : event.target.value })}
-                            name="email"
+                            value={username}
+                            onChange={event => this.setState({ username : event.target.value })}
+                            name="username"
+                            placeholder="Ayo isi nama kamu"
                         />
                     </div>    
-                    <br/>
-                    <div className="mb-8">
-                        <label class="form-label">Password : </label><br/>
-                        <input
-                            class="form-control"
-                            type="password"
-                            value={password}
-                            onChange={event => this.setState({ password : event.target.value })}
-                            name="password"
-                        />
-                    </div>
                     <br/>
                     <div className="d-flex justify-content-center">
                         <button type="submit" className="btn btn-primary">Masuk</button>
                     </div>
-                    <p>Kamu belum punya akun?<a href="/register">Daftar Sini</a></p>
                 </form>
                 </div>
-            </container>
         );
     }
 }

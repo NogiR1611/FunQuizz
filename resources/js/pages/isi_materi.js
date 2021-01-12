@@ -1,6 +1,14 @@
 import React,{Component} from "react";
 import PostData from "../data/materi.json";
+import { useSpeechSynthesis } from "react-speech-kit";
 import "../css/style.css";
+
+const Speech = (props) => {
+    const {speak} = useSpeechSynthesis();
+    return (
+        <button onClick={() => speak({text:props.text })}>Nyala</button>
+    );
+}
 
 class Materi extends Component{
     constructor(props){
@@ -25,19 +33,22 @@ class Materi extends Component{
     render(){
         const {name,image,description} = this.state;
         return (
-            <div className="item-page">
-                <div className="text-center m-5">
-                    <h3>{name}</h3>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <img src={image} className="image-item" alt="" />
+            <container>
+                <div className="item-page">
+                    <div className="text-center text-white m-5">
+                        <h3>{name}</h3>
                     </div>
-                    <div className="col">
-                        <p className="description">{description}</p>
+                    <div className="row">
+                        <div className="col">
+                            <img src={image} className="image-item" alt="" />
+                        </div>
+                        <div className="col">
+                            <p className="description text-white">{description}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <Speech text={description}/>
+            </container>
         );
     }
 }

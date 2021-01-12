@@ -11,7 +11,6 @@ class Home extends Component{
         this.state = {
             isLoggedIn : false,
             username : "",
-            email : "",
             redirect : false
         }
     }
@@ -52,7 +51,6 @@ class Home extends Component{
     Logout = () => {
         let appState = {
             isLoggedIn : false,
-            email : "",
             username : ""
         };
         let userScore = {
@@ -65,7 +63,6 @@ class Home extends Component{
         localStorage["appState"] = JSON.stringify(appState);
         this.setState({
             isLoggedIn : false,
-            email : "",
             username : "",
             redirect : true
         });
@@ -80,18 +77,14 @@ class Home extends Component{
 
         return (
             <React.Fragment>
-                <div class="container d-flex align-items-center">
-                    <div class="center-component">
-                        <img src={"http://localhost:8000/images/logo.png"} alt="" />
-                        <p>Hai {username},<span id="salam"></span></p>
-                        <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
-                        <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
-                        <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
-                        <a href="/" className="option-menu" id="keluar">Keluar</a>
+                    <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center home">
+                            <img src={"http://localhost:8000/images/logo.png"} alt="" />
+                            <p>Hai {username},<span id="salam"></span></p>
+                            <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
+                            <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
+                            <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
+                            <button onClick={this.Logout} className="option-menu" id="keluar">Keluar</button>
                     </div>
-                </div>
-                <button onClick={this.Logout}>Logout</button>
-                <Footer />
             </React.Fragment>
         );
     }

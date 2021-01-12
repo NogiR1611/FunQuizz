@@ -6,11 +6,11 @@ import "../css/style.css";
 class ListMateri extends Component{
     render(){
         return (
-            <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-                    <div className="text-center fs-2">
+                <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi">
+                    <div className="text-center-light fs-2">
                         <p>Materi Pembelajaran</p>
                     </div>
-                    <div className="row list-materi">
+                    <div className="row">
                         {PostData.map( (postDetail,index)=>{
                             return (
                                 <div className="col-md-3 item-materi" key={index}>
@@ -22,7 +22,7 @@ class ListMateri extends Component{
                             );
                         })}
                     </div>
-            </div>
+                </div>
         );
     }
 }

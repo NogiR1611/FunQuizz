@@ -6409,12 +6409,13 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.bg-login{\r\n    height: 692px;\r\n    background-color: #EAF1E6;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n}\r\n\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    display: flex;\r\n    align-self: center;\r\n    justify-content: center;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.center-component a{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n}\r\n\r\n.center-component p{\r\n    font-size: 20px;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.card{\r\n    padding: 20px;\r\n    box-shadow: 1px 1px 1px 1px solid black;\r\n}\r\n\r\n.card img{\r\n    width: 300px;\r\n    height: 95px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n.option-menu{\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n}\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}", ""]);
+exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    background-size: 100%;\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    height: 100%;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    color: white;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.option-menu{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n    width: 350px;\r\n    text-align: center;\r\n}\r\n\r\n.home p{\r\n    font-size: 20px;\r\n    color: #F0ECE3;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.home img{\r\n    width: 500px;\r\n    height: 150px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n    color: #9C978B;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n    color: #9C978B;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n    color: #9C978B;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n    color: #9C978B;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}\r\n\r\n.button-answer{\r\n    display: block;\r\n    margin: 10px 10px;\r\n    width: 220px;\r\n    border-radius: 10px;\r\n    background-color: #287EAF;\r\n    border:5px solid #57C0EB;\r\n    transition : all .3s;\r\n    color: white;\r\n}\r\n\r\n.button-answer:focus{\r\n    outline: 0;\r\n    border: 5px solid #287EAF;\r\n  }\r\n\r\n.button-answer:hover{\r\n    background-color: #41B2A6;\r\n}\r\n\r\n.soal-container{\r\n    margin-top: 150px;\r\n}\r\n\r\n.result-score{\r\n    font-size: 28px;\r\n    color: white;\r\n}\r\n\r\n.button-navigation{\r\n    margin:0px 80px;\r\n    text-decoration: none;\r\n    color: #F3F9F7;\r\n    padding: 10px 10px;\r\n    border: 1px solid black;\r\n    border-radius: 10px;\r\n    transition: all .3s;\r\n}\r\n\r\n#try-quiz{\r\n    background-color: #0EA2FC;\r\n    border: 1px solid #0EA2FC;\r\n}\r\n\r\n#try-quiz:hover{\r\n    background-color: #1E8DAD;\r\n    border: 1px solid #1E8DAD;\r\n    color: #CCD1D2;\r\n}\r\n\r\n#back-menu{\r\n    background-color: #F3B205;\r\n    border: 1px solid #F3B205;\r\n}\r\n\r\n#back-menu:hover{\r\n    background-color: #D39510;\r\n    border: 1px solid #D39510;\r\n    color: #CCD1D2;\r\n}", ""]);
 
 // exports
 
@@ -6503,6 +6504,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -67670,6 +67698,308 @@ if (true) {
 
 /***/ }),
 
+/***/ "./node_modules/react-speech-kit/dist/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/react-speech-kit/dist/index.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _useSpeechRecognition = __webpack_require__(/*! ./useSpeechRecognition */ "./node_modules/react-speech-kit/dist/useSpeechRecognition.js");
+
+Object.defineProperty(exports, 'useSpeechRecognition', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_useSpeechRecognition).default;
+  }
+});
+
+var _useSpeechSynthesis = __webpack_require__(/*! ./useSpeechSynthesis */ "./node_modules/react-speech-kit/dist/useSpeechSynthesis.js");
+
+Object.defineProperty(exports, 'useSpeechSynthesis', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_useSpeechSynthesis).default;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-speech-kit/dist/useSpeechRecognition.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/react-speech-kit/dist/useSpeechRecognition.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+/**
+ * Custom hook similar to useCallback, but for callbacks where the dependencies
+ * change frequently. Ensures that references to state and props inside the
+ * callback always get the latest values. Used to keep the `listen` and `stop`
+ * functions in sync with the latest values of the `listening` and `supported`
+ * state variables. See this issue for an example of why this is needed:
+ *
+ *   https://github.com/MikeyParton/react-speech-kit/issues/31
+ *
+ * Implementation taken from "How to read an often-changing value from
+ * useCallback?" in the React hooks API reference:
+ *
+ *   https://reactjs.org/docs/hooks-faq.html#how-to-read-an-often-changing-value-from-usecallback
+ */
+var useEventCallback = function useEventCallback(fn, dependencies) {
+  var ref = (0, _react.useRef)(function () {
+    throw new Error('Cannot call an event handler while rendering.');
+  });
+
+  (0, _react.useEffect)(function () {
+    ref.current = fn;
+  }, [fn].concat(_toConsumableArray(dependencies)));
+
+  return (0, _react.useCallback)(function (args) {
+    var fn = ref.current;
+    return fn(args);
+  }, [ref]);
+};
+
+var useSpeechRecognition = function useSpeechRecognition() {
+  var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var _props$onEnd = props.onEnd,
+      onEnd = _props$onEnd === undefined ? function () {} : _props$onEnd,
+      _props$onResult = props.onResult,
+      onResult = _props$onResult === undefined ? function () {} : _props$onResult,
+      _props$onError = props.onError,
+      onError = _props$onError === undefined ? function () {} : _props$onError;
+
+  var recognition = (0, _react.useRef)(null);
+
+  var _useState = (0, _react.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      listening = _useState2[0],
+      setListening = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      supported = _useState4[0],
+      setSupported = _useState4[1];
+
+  var processResult = function processResult(event) {
+    var transcript = Array.from(event.results).map(function (result) {
+      return result[0];
+    }).map(function (result) {
+      return result.transcript;
+    }).join('');
+
+    onResult(transcript);
+  };
+
+  var handleError = function handleError(event) {
+    if (event.error === 'not-allowed') {
+      recognition.current.onend = function () {};
+      setListening(false);
+    }
+    onError(event);
+  };
+
+  var listen = useEventCallback(function () {
+    var args = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (listening || !supported) return;
+    var _args$lang = args.lang,
+        lang = _args$lang === undefined ? '' : _args$lang,
+        _args$interimResults = args.interimResults,
+        interimResults = _args$interimResults === undefined ? true : _args$interimResults,
+        _args$continuous = args.continuous,
+        continuous = _args$continuous === undefined ? false : _args$continuous,
+        _args$maxAlternatives = args.maxAlternatives,
+        maxAlternatives = _args$maxAlternatives === undefined ? 1 : _args$maxAlternatives,
+        grammars = args.grammars;
+
+    setListening(true);
+    recognition.current.lang = lang;
+    recognition.current.interimResults = interimResults;
+    recognition.current.onresult = processResult;
+    recognition.current.onerror = handleError;
+    recognition.current.continuous = continuous;
+    recognition.current.maxAlternatives = maxAlternatives;
+    if (grammars) {
+      recognition.current.grammars = grammars;
+    }
+    // SpeechRecognition stops automatically after inactivity
+    // We want it to keep going until we tell it to stop
+    recognition.current.onend = function () {
+      return recognition.current.start();
+    };
+    recognition.current.start();
+  }, [listening, supported, recognition]);
+
+  var stop = useEventCallback(function () {
+    if (!listening || !supported) return;
+    recognition.current.onresult = function () {};
+    recognition.current.onend = function () {};
+    recognition.current.onerror = function () {};
+    setListening(false);
+    recognition.current.stop();
+    onEnd();
+  }, [listening, supported, recognition, onEnd]);
+
+  (0, _react.useEffect)(function () {
+    if (typeof window === 'undefined') return;
+    window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (window.SpeechRecognition) {
+      setSupported(true);
+      recognition.current = new window.SpeechRecognition();
+    }
+  }, []);
+
+  return {
+    listen: listen,
+    listening: listening,
+    stop: stop,
+    supported: supported
+  };
+};
+
+exports.default = useSpeechRecognition;
+
+/***/ }),
+
+/***/ "./node_modules/react-speech-kit/dist/useSpeechSynthesis.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-speech-kit/dist/useSpeechSynthesis.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var useSpeechSynthesis = function useSpeechSynthesis() {
+  var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var _props$onEnd = props.onEnd,
+      onEnd = _props$onEnd === undefined ? function () {} : _props$onEnd;
+
+  var _useState = (0, _react.useState)([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      voices = _useState2[0],
+      setVoices = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      speaking = _useState4[0],
+      setSpeaking = _useState4[1];
+
+  var _useState5 = (0, _react.useState)(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      supported = _useState6[0],
+      setSupported = _useState6[1];
+
+  var processVoices = function processVoices(voiceOptions) {
+    setVoices(voiceOptions);
+  };
+
+  var getVoices = function getVoices() {
+    // Firefox seems to have voices upfront and never calls the
+    // voiceschanged event
+    var voiceOptions = window.speechSynthesis.getVoices();
+    if (voiceOptions.length > 0) {
+      processVoices(voiceOptions);
+      return;
+    }
+
+    window.speechSynthesis.onvoiceschanged = function (event) {
+      voiceOptions = event.target.getVoices();
+      processVoices(voiceOptions);
+    };
+  };
+
+  var handleEnd = function handleEnd() {
+    setSpeaking(false);
+    onEnd();
+  };
+
+  (0, _react.useEffect)(function () {
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      setSupported(true);
+      getVoices();
+    }
+  }, []);
+
+  var speak = function speak() {
+    var args = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var _args$voice = args.voice,
+        voice = _args$voice === undefined ? null : _args$voice,
+        _args$text = args.text,
+        text = _args$text === undefined ? '' : _args$text,
+        _args$rate = args.rate,
+        rate = _args$rate === undefined ? 1 : _args$rate,
+        _args$pitch = args.pitch,
+        pitch = _args$pitch === undefined ? 1 : _args$pitch,
+        _args$volume = args.volume,
+        volume = _args$volume === undefined ? 1 : _args$volume;
+
+    if (!supported) return;
+    setSpeaking(true);
+    // Firefox won't repeat an utterance that has been
+    // spoken, so we need to create a new instance each time
+    var utterance = new window.SpeechSynthesisUtterance();
+    utterance.text = text;
+    utterance.voice = voice;
+    utterance.onend = handleEnd;
+    utterance.rate = rate;
+    utterance.pitch = pitch;
+    utterance.volume = volume;
+    window.speechSynthesis.speak(utterance);
+  };
+
+  var cancel = function cancel() {
+    if (!supported) return;
+    setSpeaking(false);
+    window.speechSynthesis.cancel();
+  };
+
+  return {
+    supported: supported,
+    speak: speak,
+    speaking: speaking,
+    cancel: cancel,
+    voices: voices
+  };
+};
+
+exports.default = useSpeechSynthesis;
+
+/***/ }),
+
 /***/ "./node_modules/react/cjs/react.development.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
@@ -72074,6 +72404,17 @@ __webpack_require__(/*! ./router */ "./resources/js/router.js");
 
 /***/ }),
 
+/***/ "./resources/js/asset/img/bg.png":
+/*!***************************************!*\
+  !*** ./resources/js/asset/img/bg.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bg.png?be67ab6f75cb400e40385be466489bf8";
+
+/***/ }),
+
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -72173,7 +72514,7 @@ var Footer = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "card d-flex align-items-center"
+        className: "position-absolute card"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Copyright\xA92020 FunQuizz"));
     }
   }]);
@@ -72293,7 +72634,7 @@ if(false) {}
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Ransel\",\"image\":\"http://localhost:8000/images/materi/ransel.png\",\"deskripsi\":\"Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit, kain, dan lain-lain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.png\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.png\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.png\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.png\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lain\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.png\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/laptop.png\",\"deskripsi\":\"komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor, biasanya dilengkapi dengan baterai yang dapat diisi ulang\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Ransel\",\"image\":\"http://localhost:8000/images/materi/ransel.png\",\"deskripsi\":\"Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.png\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.png\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.png\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.png\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lain\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.png\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/laptop.png\",\"deskripsi\":\"komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor, biasanya dilengkapi dengan baterai yang dapat diisi ulang\"}]");
 
 /***/ }),
 
@@ -72369,7 +72710,6 @@ var Home = /*#__PURE__*/function (_Component) {
     _defineProperty(_assertThisInitialized(_this), "Logout", function () {
       var appState = {
         isLoggedIn: false,
-        email: "",
         username: ""
       };
       var userScore = {
@@ -72382,7 +72722,6 @@ var Home = /*#__PURE__*/function (_Component) {
 
       _this.setState({
         isLoggedIn: false,
-        email: "",
         username: "",
         redirect: true
       });
@@ -72391,7 +72730,6 @@ var Home = /*#__PURE__*/function (_Component) {
     _this.state = {
       isLoggedIn: false,
       username: "",
-      email: "",
       redirect: false
     };
     return _this;
@@ -72442,9 +72780,7 @@ var Home = /*#__PURE__*/function (_Component) {
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "container d-flex align-items-center"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "center-component"
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center home"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "http://localhost:8000/images/logo.png",
         alt: ""
@@ -72462,13 +72798,11 @@ var Home = /*#__PURE__*/function (_Component) {
         href: "/skor-terakhir",
         className: "option-menu",
         id: "lihat-skor"
-      }, "Lihat Skor terakhir kamu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "/",
+      }, "Lihat Skor terakhir kamu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        onClick: this.Logout,
         className: "option-menu",
         id: "keluar"
-      }, "Keluar"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        onClick: this.Logout
-      }, "Logout"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+      }, "Keluar")));
     }
   }]);
 
@@ -72492,8 +72826,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _data_materi_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/materi.json */ "./resources/js/data/materi.json");
 var _data_materi_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/materi.json */ "./resources/js/data/materi.json", 1);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_speech_kit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-speech-kit */ "./node_modules/react-speech-kit/dist/index.js");
+/* harmony import */ var react_speech_kit__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_speech_kit__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -72519,6 +72855,20 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
+
+var Speech = function Speech(props) {
+  var _useSpeechSynthesis = Object(react_speech_kit__WEBPACK_IMPORTED_MODULE_2__["useSpeechSynthesis"])(),
+      speak = _useSpeechSynthesis.speak;
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: function onClick() {
+      return speak({
+        text: props.text
+      });
+    }
+  }, "Nyala");
+};
 
 var Materi = /*#__PURE__*/function (_Component) {
   _inherits(Materi, _Component);
@@ -72556,10 +72906,10 @@ var Materi = /*#__PURE__*/function (_Component) {
           name = _this$state.name,
           image = _this$state.image,
           description = _this$state.description;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("container", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "item-page"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "text-center m-5"
+        className: "text-center text-white m-5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72571,8 +72921,10 @@ var Materi = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "description"
-      }, description))));
+        className: "description text-white"
+      }, description)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Speech, {
+        text: description
+      }));
     }
   }]);
 
@@ -72641,11 +72993,11 @@ var ListMateri = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center"
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "text-center fs-2"
+        className: "text-center-light fs-2"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Materi Pembelajaran")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row list-materi"
+        className: "row"
       }, _data_materi_json__WEBPACK_IMPORTED_MODULE_2__.map(function (postDetail, index) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "col-md-3 item-materi",
@@ -72728,35 +73080,23 @@ var Login = /*#__PURE__*/function (_Component) {
     _defineProperty(_assertThisInitialized(_this), "onSubmit", function (event) {
       event.preventDefault();
       var data = {
-        email: _this.state.email,
-        password: _this.state.password
+        username: _this.state.username
       };
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/login', data).then(function (res) {
-        var userData = {
-          id: res.data.id,
-          username: res.data.username,
-          email: res.data.email
-        };
-        var appState = {
-          isLoggedIn: true,
-          username: userData.username,
-          email: userData.email
-        };
-        localStorage["appState"] = JSON.stringify(appState);
+      var appState = {
+        isLoggedIn: true,
+        username: data.username
+      };
+      localStorage["appState"] = JSON.stringify(appState);
 
-        _this.setState({
-          isLoggedIn: appState.isLoggedIn,
-          redirect: true,
-          username: appState.username
-        });
-      })["catch"](function (err) {
-        return console.log(err);
+      _this.setState({
+        isLoggedIn: appState.isLoggedIn,
+        redirect: true,
+        username: appState.username
       });
     });
 
     _this.state = {
       username: "",
-      email: "",
       password: "",
       redirect: props.redirect,
       isLoggedIn: false
@@ -72779,8 +73119,7 @@ var Login = /*#__PURE__*/function (_Component) {
       var _this2 = this;
 
       var _this$state = this.state,
-          email = _this$state.email,
-          password = _this$state.password,
+          username = _this$state.username,
           redirect = _this$state.redirect;
 
       var _ref = this.props.location.state || {
@@ -72796,53 +73135,38 @@ var Login = /*#__PURE__*/function (_Component) {
         });
       }
 
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("container", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "bg-login row rounded"
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center bg-login"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "p-3 border col-sm-4 form-login",
         onSubmit: this.onSubmit
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "align-middle"
-      }, "Ayo masukin username dan password kamu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "align-middle fs-3"
+      }, "Ayo masukin nama kamu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "hidden",
         name: "csrf-token",
         value: "{{{ csrf_token() }}}"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "mb-8"
+        className: "text-center mb-8"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        "class": "form-label"
-      }, "Email : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        "class": "form-label fs-5"
+      }, "Nama : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         "class": "form-control",
         type: "text",
-        value: email,
+        value: username,
         onChange: function onChange(event) {
           return _this2.setState({
-            email: event.target.value
+            username: event.target.value
           });
         },
-        name: "email"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "mb-8"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        "class": "form-label"
-      }, "Password : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        "class": "form-control",
-        type: "password",
-        value: password,
-        onChange: function onChange(event) {
-          return _this2.setState({
-            password: event.target.value
-          });
-        },
-        name: "password"
+        name: "username",
+        placeholder: "Ayo isi nama kamu"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "d-flex justify-content-center"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "btn btn-primary"
-      }, "Masuk")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Kamu belum punya akun?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "/register"
-      }, "Daftar Sini")))));
+      }, "Masuk"))));
     }
   }]);
 
@@ -73086,10 +73410,19 @@ var SkorTerakhir = /*#__PURE__*/function (_Component) {
   _createClass(SkorTerakhir, [{
     key: "componentWillMount",
     value: function componentWillMount() {
-      var state = localStorage["userScore"];
+      var user = localStorage["appState"];
 
-      if (state) {
-        var UserScore = JSON.parse(state);
+      if (user) {
+        var User = JSON.parse(user);
+        this.setState({
+          username: User.username
+        });
+      }
+
+      var score = localStorage["userScore"];
+
+      if (score) {
+        var UserScore = JSON.parse(score);
         this.setState({
           benar: UserScore["true"],
           salah: UserScore["false"],
@@ -73114,16 +73447,22 @@ var SkorTerakhir = /*#__PURE__*/function (_Component) {
       } else if (score < 80) {
         statement = "Hasil kamu sudah lumayan jadi tingkatkan lagi yah";
       } else {
-        statement = "Waw bagus sekali hasil kamu";
+        statement = "Waw bagus sekali hasil kamu dan terus pertahankan belajarnya";
       }
 
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container d-flex align-items-center"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "center-component"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hai ", username, ",Skor terakhir kamu yaitu : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Benar - ", benar, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Salah - ", salah, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sehingga kamu memiliki nilai skor yaitu :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("container", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center result-score"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hai ", username, ",skor terakhir kamu yaitu : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Benar - ", benar, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban Salah - ", salah, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sehingga kamu memiliki nilai skor yaitu :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "nilai-skor"
-      }, score), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, statement), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tetap semangat terus belajarnya yah")));
+      }, score), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, statement), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tetap semangat terus belajarnya yah"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/pertanyaan",
+        className: "button-navigation",
+        id: "try-quiz"
+      }, "Coba kuis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/home",
+        className: "button-navigation",
+        id: "back-menu"
+      }, "Kembali"))));
     }
   }]);
 
@@ -73214,6 +73553,7 @@ var Soal = /*#__PURE__*/function (_Component) {
     });
 
     _this.state = {
+      User: "",
       Data: [],
       currentQuestion: 0,
       Score: 0,
@@ -73223,6 +73563,18 @@ var Soal = /*#__PURE__*/function (_Component) {
   }
 
   _createClass(Soal, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      var state = localStorage["appState"];
+
+      if (state) {
+        var AppState = JSON.parse(state);
+        this.setState({
+          User: AppState.username
+        });
+      }
+    }
+  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       function shuffle(array) {
@@ -73253,6 +73605,7 @@ var Soal = /*#__PURE__*/function (_Component) {
       var _this2 = this;
 
       var _this$state = this.state,
+          User = _this$state.User,
           Score = _this$state.Score,
           showScore = _this$state.showScore,
           currentQuestion = _this$state.currentQuestion;
@@ -73261,10 +73614,12 @@ var Soal = /*#__PURE__*/function (_Component) {
       var falseAnswer = totalQuestion - Score;
       var state = "";
 
-      if (result < 70) {
-        state = "kamu perlu terus belajar";
+      if (result < 60) {
+        state = "Haduh kamu harus belajar lebih rajin lagi yah";
+      } else if (result < 80) {
+        state = "Hasil kamu sudah lumayan jadi tingkatkan lagi yah";
       } else {
-        state = "kamu cerdas banget";
+        state = "Waw bagus sekali hasil kamu dan terus pertahankan belajarnya";
       }
 
       var value = {
@@ -73273,22 +73628,30 @@ var Soal = /*#__PURE__*/function (_Component) {
         "false": falseAnswer
       };
       localStorage["userScore"] = JSON.stringify(value);
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: ""
-      }, showScore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: ""
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jawaban benar kamu yaitu ", Score, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban salah kamu yaitu ", falseAnswer, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, result), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, state)) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("container", null, showScore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center result-score"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hai ", User), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jawaban benar kamu yaitu ", Score, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length, " soal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jawaban salah kamu yaitu ", falseAnswer, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length, " soal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jadi nilai kamu yaitu :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, result), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, state), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/pertanyaan",
+        className: "button-navigation",
+        id: "try-quiz"
+      }, "Coba kuis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/home",
+        className: "button-navigation",
+        id: "back-menu"
+      }, "Kembali"))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-white"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "text-center m-5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Soal ke - ", currentQuestion + 1, " dari ", _data_soal_json__WEBPACK_IMPORTED_MODULE_1__.length)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "row"
+        "class": "row soal-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-sm-4"
+        className: "col-sm-5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].imageQuestion,
         className: "image-question",
         alt: ""
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-sm-8"
+        className: "col-sm-7"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "fs-2"
       }, "Apakah nama benda yang ada di samping ?"), _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].answerOptions.map(function (answerOption, index) {
@@ -73296,7 +73659,8 @@ var Soal = /*#__PURE__*/function (_Component) {
           onClick: function onClick() {
             return _this2.handleAnswerButtonClick(answerOption.isCorrect);
           },
-          key: index
+          key: index,
+          className: "button-answer fs-2"
         }, answerOption.answerText);
       })))));
     }

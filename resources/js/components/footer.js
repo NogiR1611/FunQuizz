@@ -9,7 +9,7 @@ class Footer extends Component{
     }
     render(){
         return (
-            <div className="card d-flex align-items-center">
+            <div className="position-absolute card">
                 <p>Copyright&copy;2020 FunQuizz</p>
             </div>
         );
