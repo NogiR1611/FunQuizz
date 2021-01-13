@@ -223,3 +223,9 @@ body{
     border: 1px solid #D39510;
     color: #CCD1D2;
 }
+
+.speaker-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
