@@ -50,9 +50,9 @@ class Materi extends Component{
                             <Speech text={description}/>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="column-button">
                         <a href="/pertanyaan" className="button-navigation" id="try-quiz">Coba kuis</a>
-                        <a href="/home" className="button-navigation" id="back-menu">Kembali</a>
+                        <a href="/list-materi" className="button-navigation" id="back-menu">Kembali</a>
                     </div>
                 </div>
         );

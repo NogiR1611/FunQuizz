@@ -229,3 +229,9 @@ body{
     height: 30px;
     margin-right: 20px;
 }
+
+.column-button{
+    display: flex;
+    justify-content: center;
+    padding:50px 50px;
+}

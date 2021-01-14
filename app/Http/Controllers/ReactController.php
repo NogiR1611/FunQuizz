@@ -29,6 +29,16 @@ class ReactController extends Controller
         return redirect()->back();
     }
 
+    public function json_store(){
+        $url = __DIR__.'/materi.json';
+        $datas = file_get_contents($url);
+        $data = json_decode($datas,true)->paginate();
+
+        return response()->json([
+            'data' => $data
+        ]);
+    }
+
     public function materi_store($id,Request $request){
         $url = __DIR__.'/materi.json';
         $datas = file_get_contents($url);

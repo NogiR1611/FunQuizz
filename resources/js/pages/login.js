@@ -29,6 +29,12 @@ class Login extends Component{
             username : this.state.username
         };
 
+        if(data.username === ""){
+            return (
+                <Redirect to="/" />
+            );
+        }
+
         let appState = {
             isLoggedIn : true,
             username : data.username
