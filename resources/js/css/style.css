@@ -176,7 +176,7 @@ body{
 
 .button-answer:focus{
     outline: 0;
-    border: 5px solid #287EAF;
+    border: 5px solid #57C0EB;
   }
 
 .button-answer:hover{
@@ -234,4 +234,27 @@ body{
     display: flex;
     justify-content: center;
     padding:50px 50px;
+}
+
+.pagination{
+    margin: 20px 0px;
+}
+
+.list-pagination{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #E5E8EA;
+    transition: all .3s;
+}
+
+.list-pagination:hover{
+    color: #505658;
+    background-color: #E5E8EA;
+}
+
+.item-per-page{
+    text-align: center;
 }

@@ -97,7 +97,7 @@ class Soal extends Component{
                         <span>{result}</span>
                         <p>{state}</p>
                         <div>
-                            <a href="/pertanyaan" className="button-navigation" id="try-quiz">Coba kuis</a>
+                            <a href="/pertanyaan" className="button-navigation" id="try-quiz">Coba Lagi</a>
                             <a href="/home" className="button-navigation" id="back-menu">Kembali</a>
                         </div>
                     </div>

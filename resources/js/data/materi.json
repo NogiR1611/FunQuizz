@@ -3,7 +3,7 @@
         "id"        :  1,
         "name"      :  "Ransel",
         "image"     :  "http://localhost:8000/images/materi/ransel.png",
-        "deskripsi" :   "Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain."
+        "deskripsi" :   "Ransel adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain."
     },
     {
         "id"        :  2,

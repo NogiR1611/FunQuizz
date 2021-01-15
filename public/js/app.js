@@ -6477,7 +6477,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    background-size: 100%;\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    height: 100%;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    color: white;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.option-menu{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n    width: 350px;\r\n    text-align: center;\r\n}\r\n\r\n.home p{\r\n    font-size: 20px;\r\n    color: #F0ECE3;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.home img{\r\n    width: 500px;\r\n    height: 150px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n    color: #9C978B;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n    color: #9C978B;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n    color: #9C978B;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n    color: #9C978B;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}\r\n\r\n.button-answer{\r\n    display: block;\r\n    margin: 10px 10px;\r\n    width: 220px;\r\n    border-radius: 10px;\r\n    background-color: #287EAF;\r\n    border:5px solid #57C0EB;\r\n    transition : all .3s;\r\n    color: white;\r\n}\r\n\r\n.button-answer:focus{\r\n    outline: 0;\r\n    border: 5px solid #287EAF;\r\n  }\r\n\r\n.button-answer:hover{\r\n    background-color: #41B2A6;\r\n}\r\n\r\n.soal-container{\r\n    margin-top: 150px;\r\n}\r\n\r\n.result-score{\r\n    font-size: 28px;\r\n    color: white;\r\n}\r\n\r\n.button-navigation{\r\n    margin:0px 80px;\r\n    text-decoration: none;\r\n    color: #F3F9F7;\r\n    padding: 10px 10px;\r\n    border: 1px solid black;\r\n    border-radius: 10px;\r\n    transition: all .3s;\r\n}\r\n\r\n#try-quiz{\r\n    background-color: #0EA2FC;\r\n    border: 1px solid #0EA2FC;\r\n}\r\n\r\n#try-quiz:hover{\r\n    background-color: #1E8DAD;\r\n    border: 1px solid #1E8DAD;\r\n    color: #CCD1D2;\r\n}\r\n\r\n#back-menu{\r\n    background-color: #F3B205;\r\n    border: 1px solid #F3B205;\r\n}\r\n\r\n#back-menu:hover{\r\n    background-color: #D39510;\r\n    border: 1px solid #D39510;\r\n    color: #CCD1D2;\r\n}\r\n\r\n.speaker-icon{\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.column-button{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:50px 50px;\r\n}", ""]);
+exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    background-size: 100%;\r\n    height: 100%;\r\n    font-family: 'Permanent Marker', cursive;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    height: 100%;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    color: white;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.option-menu{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n    width: 350px;\r\n    text-align: center;\r\n}\r\n\r\n.home p{\r\n    font-size: 20px;\r\n    color: #F0ECE3;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.home img{\r\n    width: 500px;\r\n    height: 150px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n    color: #9C978B;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n    color: #9C978B;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n    color: #9C978B;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n    color: #9C978B;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}\r\n\r\n.button-answer{\r\n    display: block;\r\n    margin: 10px 10px;\r\n    width: 220px;\r\n    border-radius: 10px;\r\n    background-color: #287EAF;\r\n    border:5px solid #57C0EB;\r\n    transition : all .3s;\r\n    color: white;\r\n}\r\n\r\n.button-answer:focus{\r\n    outline: 0;\r\n    border: 5px solid #57C0EB;\r\n  }\r\n\r\n.button-answer:hover{\r\n    background-color: #41B2A6;\r\n}\r\n\r\n.soal-container{\r\n    margin-top: 150px;\r\n}\r\n\r\n.result-score{\r\n    font-size: 28px;\r\n    color: white;\r\n}\r\n\r\n.button-navigation{\r\n    margin:0px 80px;\r\n    text-decoration: none;\r\n    color: #F3F9F7;\r\n    padding: 10px 10px;\r\n    border: 1px solid black;\r\n    border-radius: 10px;\r\n    transition: all .3s;\r\n}\r\n\r\n#try-quiz{\r\n    background-color: #0EA2FC;\r\n    border: 1px solid #0EA2FC;\r\n}\r\n\r\n#try-quiz:hover{\r\n    background-color: #1E8DAD;\r\n    border: 1px solid #1E8DAD;\r\n    color: #CCD1D2;\r\n}\r\n\r\n#back-menu{\r\n    background-color: #F3B205;\r\n    border: 1px solid #F3B205;\r\n}\r\n\r\n#back-menu:hover{\r\n    background-color: #D39510;\r\n    border: 1px solid #D39510;\r\n    color: #CCD1D2;\r\n}\r\n\r\n.speaker-icon{\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.column-button{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:50px 50px;\r\n}\r\n\r\n.pagination{\r\n    margin: 20px 0px;\r\n}\r\n\r\n.list-pagination{\r\n    list-style-type: none;\r\n    display: inline-block;\r\n    padding: 5px 10px;\r\n    font-size: 20px;\r\n    cursor: pointer;\r\n    border: 1px solid #E5E8EA;\r\n    transition: all .3s;\r\n}\r\n\r\n.list-pagination:hover{\r\n    color: #505658;\r\n    background-color: #E5E8EA;\r\n}\r\n\r\n.item-per-page{\r\n    text-align: center;\r\n}", ""]);
 
 // exports
 
@@ -74960,143 +74960,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/footer.js":
-/*!*******************************************!*\
-  !*** ./resources/js/components/footer.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-
-
-var Footer = /*#__PURE__*/function (_Component) {
-  _inherits(Footer, _Component);
-
-  var _super = _createSuper(Footer);
-
-  function Footer(props) {
-    var _this;
-
-    _classCallCheck(this, Footer);
-
-    _this = _super.call(this, props);
-    _this.state = {};
-    return _this;
-  }
-
-  _createClass(Footer, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "position-absolute card"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Copyright\xA92020 FunQuizz"));
-    }
-  }]);
-
-  return Footer;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./resources/js/components/header.js":
-/*!*******************************************!*\
-  !*** ./resources/js/components/header.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-
-
-var Header = /*#__PURE__*/function (_Component) {
-  _inherits(Header, _Component);
-
-  var _super = _createSuper(Header);
-
-  function Header(props) {
-    var _this;
-
-    _classCallCheck(this, Header);
-
-    _this = _super.call(this, props);
-    _this.state = {};
-    return _this;
-  }
-
-  _createClass(Header, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "card shadow"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "d-flex justify-content-center"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "http://localhost:8000/images/logo.png",
-        alt: ""
-      })));
-    }
-  }]);
-
-  return Header;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
 /***/ "./resources/js/css/style.css":
 /*!************************************!*\
   !*** ./resources/js/css/style.css ***!
@@ -75134,7 +74997,7 @@ if(false) {}
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Ransel\",\"image\":\"http://localhost:8000/images/materi/ransel.png\",\"deskripsi\":\"Tas adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.png\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya.\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.png\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya.\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.png\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras.\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.png\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lainnya.\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.png\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/laptop.png\",\"deskripsi\":\"Laptop adalah komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor,biasanya dilengkapi dengan baterai yang dapat diisi ulang.\"},{\"id\":9,\"name\":\"Buku\",\"image\":\"http://localhost:8000/images/materi/buku.png\",\"deskripsi\":\"Buku adalah kumpulan atau himpunan kertas atau bahan lainnya yang dijilid menjadi satu pada salah satu ujungnya dan berisi tulisan, gambar, atau tempelan. Setiap sisi dari sebuah lembaran kertas pada buku disebut sebuah halaman.\"},{\"id\":10,\"name\":\"Cangkir\",\"image\":\"http://localhost:8000/images/materi/cangkir.png\",\"deskripsi\":\"Cangkir adalah wadah kecil untuk minum teh atau kopi dengan pegangan di salah satu sisi yang digunakan sewaktu memegang dengan ibu jari dan jari tangan yang lainnya.\"},{\"id\":11,\"name\":\"Gelas\",\"image\":\"http://localhost:8000/images/materi/gelas.png\",\"deskripsi\":\"Gelas adalah benda yang kita sering temui setiap hari baik di rumah maupun di tempat – tempat lain yang membutuhkan gelas. Gelas ini juga memilki arti yaitu sebuah wadah untuk minum, umumnya gelas berwarna transparan tetapi banyak juga gelas yang diproduksi dengan berbagai macam warna.\"},{\"id\":12,\"name\":\"Gitar\",\"image\":\"http://localhost:8000/images/materi/gitar.png\",\"deskripsi\":\"Gitar adalah sebuah alat musik berdawai yang dimainkan dengan cara dipetik, umumnya menggunakan jari maupun plektrum. Gitar terbentuk atas sebuah bagian tubuh pokok dengan bagian leher yang padat sebagai tempat senar yang umumnya berjumlah enam didempetkan.\"},{\"id\":13,\"name\":\"Handphone\",\"image\":\"http://localhost:8000/images/materi/handphone.png\",\"deskripsi\":\"handphone adalah perangkat telekomunikasi elektronik yang mempunyai kemampuan dasar yang sama dengan telepon konvensional saluran tetap, tetapi dapat dibawa ke mana-mana dan tidak perlu disambungkan dengan jaringan telepon menggunakan kabel.\"},{\"id\":14,\"name\":\"Handuk\",\"image\":\"http://localhost:8000/images/materi/handuk.png\",\"deskripsi\":\"Handuk adalah selembar kain atau kertas yang dapat menyerap cairan dan digunakan untuk mengelap atau mengeringkan.\"},{\"id\":15,\"name\":\"Helikopter\",\"image\":\"http://localhost:8000/images/materi/helikopter.png\",\"deskripsi\":\"Helikopter adalah pesawat udara dengan baling-baling besar di atas yang berputar horizontal lalu mempercepat massa udara ke arah bawah,dan dengan demikian memperoleh reaksi berupa gaya angkat.\"},{\"id\":16,\"name\":\"Jaket\",\"image\":\"http://localhost:8000/images/materi/jaket.png\",\"deskripsi\":\"Jaket adalah baju luar yang panjangnya hingga pinggang atau pinggul,dipakai untuk menahan angin dan cuaca dingin.Bukaan jaket terletak di bagian depan dari leher ke bawah.\"},{\"id\":17,\"name\":\"Jam\",\"image\":\"http://localhost:8000/images/materi/jam.png\",\"deskripsi\":\"Jam adalah sebuah alat ukur waktu. Lama sebuah jam adalah 24 jam dalam satu hari.Satu jam bisa dibagi menjadi unit waktu yang lebih kecil lagi.seperti menit kemudian detik.\"},{\"id\":18,\"name\":\"Kamera\",\"image\":\"http://localhost:8000/images/materi/kamera.png\",\"deskripsi\":\"Kamera adalah alat yang digunakan untuk mengambil gambar atau foto dengan memanfaatkan cahaya yang ada,termasuk cahaya matahari.\"},{\"id\":19,\"name\":\"Karpet\",\"image\":\"http://localhost:8000/images/materi/karpet.png\",\"deskripsi\":\"Karpet adalah hamparan kain penutup lantai yang dibuat dari bulu domba atau kain tebal.\"},{\"id\":20,\"name\":\"Kasur\",\"image\":\"http://localhost:8000/images/materi/kasur.png\",\"deskripsi\":\"Kasur adalah benda yang digunakan untuk alas tidur atau berbaring, yang terdiri dari bahan kain atau plastik, berisi kapuk, karet busa, dan ditutupi dengan kain luar atau kain kasur.\"},{\"id\":21,\"name\":\"Kompor\",\"image\":\"http://localhost:8000/images/materi/kompor.png\",\"deskripsi\":\"Kompor adalah alat pengapian untuk memasak yang menggunakan minyak tanah, gas, atau listrik sebagai bahan bakar.\"},{\"id\":22,\"name\":\"Koper\",\"image\":\"http://localhost:8000/images/materi/koper.png\",\"deskripsi\":\"Koper adalah peti yang terbuat dari kulit (kaleng dan sebagainya) tempat menyimpan pakaian yang dapat dibawa dalam perjalanan.\"},{\"id\":23,\"name\":\"Masker\",\"image\":\"http://localhost:8000/images/materi/masker.png\",\"deskripsi\":\"Masker adalah kain penutup mulut dan hidung yang digunakan untuk mencegah berbagai penyakit masuk lewat mulut dan hidung.\"},{\"id\":24,\"name\":\"Obeng\",\"image\":\"http://localhost:8000/images/materi/obeng.png\",\"deskripsi\":\"Obeng adalah sebuah alat yang digunakan untuk memasang atau melepaskan baut.\"},{\"id\":25,\"name\":\"Panci\",\"image\":\"http://localhost:8000/images/materi/panci.png\",\"deskripsi\":\"Panci adalah alat masak yang terbuat dari logam dan berbentuk silinder atau mengecil pada bagian bawahnya.\"},{\"id\":26,\"name\":\"Pesawat\",\"image\":\"http://localhost:8000/images/materi/pesawat.png\",\"deskripsi\":\"Pesawat terbang atau pesawat udara adalah mesin atau kendaraan apapun yang mampu terbang di atmosfer atau udara dengan memiliki sayap tetap.\"},{\"id\":27,\"name\":\"Piring\",\"image\":\"http://localhost:8000/images/materi/piring.png\",\"deskripsi\":\"Piring adalah wadah berbentuk bundar pipih dan sedikit cekung,yang terbuat dari seng atau plastik yang digunakan untuk tempat makan.\"},{\"id\":28,\"name\":\"Pulpen\",\"image\":\"http://localhost:8000/images/materi/pulpen.png\",\"deskripsi\":\"Pulpen adalah alat tulis berupa mata pena berujung tajam yang dilengkapi pegangan berisi kantong tinta yang bisa diisi kembali.\"},{\"id\":29,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah susunan kayu untuk meletakkan piring,mangkuk,alat-alat dapur,dan sebagainya\"},{\"id\":30,\"name\":\"Sajadah\",\"image\":\"http://localhost:8000/images/materi/sajadah.png\",\"deskripsi\":\"Sajadah adalah alat yang terbuat dari kain yang biasanya memiliki gambar dan corak bernuansa Islam. Sajadah digunakan kaum Muslim sebagai alas untuk menjaga agar tetap terjaga kebersihan saat melaksanakan salat.\"},{\"id\":31,\"name\":\"Sendal\",\"image\":\"http://localhost:8000/images/materi/sendal.png\",\"deskripsi\":\"Sendal adalah salah satu model alas kaki yang terbuka pada bagian jari kaki atau tumit pemakainya. Bagian alas (sol) dihubungkan dengan tali atau sabuk yang berfungsi sebagai penjepit (penahan) di bagian jari, punggung kaki, atau pergelangan kaki agar sandal tidak terlepas dari kaki pemakainya.\"},{\"id\":32,\"name\":\"Sepatu\",\"image\":\"http://localhost:8000/images/materi/sepatu.png\",\"deskripsi\":\"Sepatu adalah salah satu jenis alas kaki yang biasanya terdiri atas bagian-bagian sol, hak, kap, tali, dan lidah.Biasanya juga terbuat dari kanvas atau kulit yang menutupi semua bagian mulai dari jari jemari, punggung kaki hingga bagian tumit yang difungsikan untuk melindungi kaki dari kotoran berupa debu, kerikil, atau bahkan lumpur.\"},{\"id\":33,\"name\":\"Sepeda\",\"image\":\"http://localhost:8000/images/materi/sepeda.png\",\"deskripsi\":\"Sepeda atau kereta angin adalah kendaraan beroda dua atau tiga yang mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya.\"},{\"id\":34,\"name\":\"Setrika\",\"image\":\"http://localhost:8000/images/materi/setrika.png\",\"deskripsi\":\"Setrika adalah alat untuk melicinkan pakaian dan sebagainya yang terbuat dari besi dan cara memakainya dengan dipanaskan oleh listrik.\"},{\"id\":35,\"name\":\"Spidol\",\"image\":\"http://localhost:8000/images/materi/spidol.png\",\"deskripsi\":\"Spidol adalah sejenis pena yang memiliki sumber tinta sendiri dan ujungnya terbuat dari serat berpori dan ditekan seperti kain.\"},{\"id\":36,\"name\":\"Tisu\",\"image\":\"http://localhost:8000/images/materi/tisu.png\",\"deskripsi\":\"Tisu atau kertas selampai adalah sejenis kertas krep ringan yang dapat digunakan untuk berbagai tujuan, seperti kertas tisu higienis, tisu wajah, handuk kertas, kertas pembungkus, dan lainnya.\"},{\"id\":37,\"name\":\"Topi\",\"image\":\"http://localhost:8000/images/materi/topi.png\",\"deskripsi\":\"Topi adalah suatu jenis penutup kepala yang terbuat dari kain.Penggunaan Topi digunakan untuk beberapa alasan.Seperti untuk aksesoris pakaian dan sebagai pelindung dari sinar matahari.\"},{\"id\":38,\"name\":\"Traktor\",\"image\":\"http://localhost:8000/images/materi/traktor.png\",\"deskripsi\":\"Traktor adalah kendaraan yang dijalankan dengan bensin atau motor diesel, dipakai untuk menarik benda yang berat atau membajak seperti meratakan tanah.\"},{\"id\":39,\"name\":\"Wajan\",\"image\":\"http://localhost:8000/images/materi/wajan.png\",\"deskripsi\":\"Wajan adalah alat memasak terbuat dari baja atau logam lain yang diletakkan di atas kompor atau tungku dan digunakan untuk wadah makanan yang akan diolah.\"},{\"id\":40,\"name\":\"Meja\",\"image\":\"http://localhost:8000/images/materi/meja.png\",\"deskripsi\":\"Meja adalah sebuah mebel atau perabotan yang memiliki permukaan datar dan kaki-kaki sebagai penyangga, yang bentuk dan fungsinya bermacam-macam.Meja sering dipakai untuk menaruh barang atau makanan.Meja umumnya dipasangkan dengan kursi atau bangku.\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Ransel\",\"image\":\"http://localhost:8000/images/materi/ransel.png\",\"deskripsi\":\"Ransel adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain.\"},{\"id\":2,\"name\":\"Mobil\",\"image\":\"http://localhost:8000/images/materi/mobil.png\",\"deskripsi\":\"Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya.\"},{\"id\":3,\"name\":\"Sepeda Motor\",\"image\":\"http://localhost:8000/images/materi/motor.png\",\"deskripsi\":\"Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya.\"},{\"id\":4,\"name\":\"Pensil\",\"image\":\"http://localhost:8000/images/materi/pensil.png\",\"deskripsi\":\"Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras.\"},{\"id\":5,\"name\":\"Lemari\",\"image\":\"http://localhost:8000/images/materi/lemari.png\",\"deskripsi\":\"Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian.\"},{\"id\":6,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lainnya.\"},{\"id\":7,\"name\":\"Kursi\",\"image\":\"http://localhost:8000/images/materi/kursi.png\",\"deskripsi\":\"Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu.\"},{\"id\":8,\"name\":\"Laptop\",\"image\":\"http://localhost:8000/images/materi/laptop.png\",\"deskripsi\":\"Laptop adalah komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor,biasanya dilengkapi dengan baterai yang dapat diisi ulang.\"},{\"id\":9,\"name\":\"Buku\",\"image\":\"http://localhost:8000/images/materi/buku.png\",\"deskripsi\":\"Buku adalah kumpulan atau himpunan kertas atau bahan lainnya yang dijilid menjadi satu pada salah satu ujungnya dan berisi tulisan, gambar, atau tempelan. Setiap sisi dari sebuah lembaran kertas pada buku disebut sebuah halaman.\"},{\"id\":10,\"name\":\"Cangkir\",\"image\":\"http://localhost:8000/images/materi/cangkir.png\",\"deskripsi\":\"Cangkir adalah wadah kecil untuk minum teh atau kopi dengan pegangan di salah satu sisi yang digunakan sewaktu memegang dengan ibu jari dan jari tangan yang lainnya.\"},{\"id\":11,\"name\":\"Gelas\",\"image\":\"http://localhost:8000/images/materi/gelas.png\",\"deskripsi\":\"Gelas adalah benda yang kita sering temui setiap hari baik di rumah maupun di tempat – tempat lain yang membutuhkan gelas. Gelas ini juga memilki arti yaitu sebuah wadah untuk minum, umumnya gelas berwarna transparan tetapi banyak juga gelas yang diproduksi dengan berbagai macam warna.\"},{\"id\":12,\"name\":\"Gitar\",\"image\":\"http://localhost:8000/images/materi/gitar.png\",\"deskripsi\":\"Gitar adalah sebuah alat musik berdawai yang dimainkan dengan cara dipetik, umumnya menggunakan jari maupun plektrum. Gitar terbentuk atas sebuah bagian tubuh pokok dengan bagian leher yang padat sebagai tempat senar yang umumnya berjumlah enam didempetkan.\"},{\"id\":13,\"name\":\"Handphone\",\"image\":\"http://localhost:8000/images/materi/handphone.png\",\"deskripsi\":\"handphone adalah perangkat telekomunikasi elektronik yang mempunyai kemampuan dasar yang sama dengan telepon konvensional saluran tetap, tetapi dapat dibawa ke mana-mana dan tidak perlu disambungkan dengan jaringan telepon menggunakan kabel.\"},{\"id\":14,\"name\":\"Handuk\",\"image\":\"http://localhost:8000/images/materi/handuk.png\",\"deskripsi\":\"Handuk adalah selembar kain atau kertas yang dapat menyerap cairan dan digunakan untuk mengelap atau mengeringkan.\"},{\"id\":15,\"name\":\"Helikopter\",\"image\":\"http://localhost:8000/images/materi/helikopter.png\",\"deskripsi\":\"Helikopter adalah pesawat udara dengan baling-baling besar di atas yang berputar horizontal lalu mempercepat massa udara ke arah bawah,dan dengan demikian memperoleh reaksi berupa gaya angkat.\"},{\"id\":16,\"name\":\"Jaket\",\"image\":\"http://localhost:8000/images/materi/jaket.png\",\"deskripsi\":\"Jaket adalah baju luar yang panjangnya hingga pinggang atau pinggul,dipakai untuk menahan angin dan cuaca dingin.Bukaan jaket terletak di bagian depan dari leher ke bawah.\"},{\"id\":17,\"name\":\"Jam\",\"image\":\"http://localhost:8000/images/materi/jam.png\",\"deskripsi\":\"Jam adalah sebuah alat ukur waktu. Lama sebuah jam adalah 24 jam dalam satu hari.Satu jam bisa dibagi menjadi unit waktu yang lebih kecil lagi.seperti menit kemudian detik.\"},{\"id\":18,\"name\":\"Kamera\",\"image\":\"http://localhost:8000/images/materi/kamera.png\",\"deskripsi\":\"Kamera adalah alat yang digunakan untuk mengambil gambar atau foto dengan memanfaatkan cahaya yang ada,termasuk cahaya matahari.\"},{\"id\":19,\"name\":\"Karpet\",\"image\":\"http://localhost:8000/images/materi/karpet.png\",\"deskripsi\":\"Karpet adalah hamparan kain penutup lantai yang dibuat dari bulu domba atau kain tebal.\"},{\"id\":20,\"name\":\"Kasur\",\"image\":\"http://localhost:8000/images/materi/kasur.png\",\"deskripsi\":\"Kasur adalah benda yang digunakan untuk alas tidur atau berbaring, yang terdiri dari bahan kain atau plastik, berisi kapuk, karet busa, dan ditutupi dengan kain luar atau kain kasur.\"},{\"id\":21,\"name\":\"Kompor\",\"image\":\"http://localhost:8000/images/materi/kompor.png\",\"deskripsi\":\"Kompor adalah alat pengapian untuk memasak yang menggunakan minyak tanah, gas, atau listrik sebagai bahan bakar.\"},{\"id\":22,\"name\":\"Koper\",\"image\":\"http://localhost:8000/images/materi/koper.png\",\"deskripsi\":\"Koper adalah peti yang terbuat dari kulit (kaleng dan sebagainya) tempat menyimpan pakaian yang dapat dibawa dalam perjalanan.\"},{\"id\":23,\"name\":\"Masker\",\"image\":\"http://localhost:8000/images/materi/masker.png\",\"deskripsi\":\"Masker adalah kain penutup mulut dan hidung yang digunakan untuk mencegah berbagai penyakit masuk lewat mulut dan hidung.\"},{\"id\":24,\"name\":\"Obeng\",\"image\":\"http://localhost:8000/images/materi/obeng.png\",\"deskripsi\":\"Obeng adalah sebuah alat yang digunakan untuk memasang atau melepaskan baut.\"},{\"id\":25,\"name\":\"Panci\",\"image\":\"http://localhost:8000/images/materi/panci.png\",\"deskripsi\":\"Panci adalah alat masak yang terbuat dari logam dan berbentuk silinder atau mengecil pada bagian bawahnya.\"},{\"id\":26,\"name\":\"Pesawat\",\"image\":\"http://localhost:8000/images/materi/pesawat.png\",\"deskripsi\":\"Pesawat terbang atau pesawat udara adalah mesin atau kendaraan apapun yang mampu terbang di atmosfer atau udara dengan memiliki sayap tetap.\"},{\"id\":27,\"name\":\"Piring\",\"image\":\"http://localhost:8000/images/materi/piring.png\",\"deskripsi\":\"Piring adalah wadah berbentuk bundar pipih dan sedikit cekung,yang terbuat dari seng atau plastik yang digunakan untuk tempat makan.\"},{\"id\":28,\"name\":\"Pulpen\",\"image\":\"http://localhost:8000/images/materi/pulpen.png\",\"deskripsi\":\"Pulpen adalah alat tulis berupa mata pena berujung tajam yang dilengkapi pegangan berisi kantong tinta yang bisa diisi kembali.\"},{\"id\":29,\"name\":\"Rak\",\"image\":\"http://localhost:8000/images/materi/rak.png\",\"deskripsi\":\"Rak adalah susunan kayu untuk meletakkan piring,mangkuk,alat-alat dapur,dan sebagainya\"},{\"id\":30,\"name\":\"Sajadah\",\"image\":\"http://localhost:8000/images/materi/sajadah.png\",\"deskripsi\":\"Sajadah adalah alat yang terbuat dari kain yang biasanya memiliki gambar dan corak bernuansa Islam. Sajadah digunakan kaum Muslim sebagai alas untuk menjaga agar tetap terjaga kebersihan saat melaksanakan salat.\"},{\"id\":31,\"name\":\"Sendal\",\"image\":\"http://localhost:8000/images/materi/sendal.png\",\"deskripsi\":\"Sendal adalah salah satu model alas kaki yang terbuka pada bagian jari kaki atau tumit pemakainya. Bagian alas (sol) dihubungkan dengan tali atau sabuk yang berfungsi sebagai penjepit (penahan) di bagian jari, punggung kaki, atau pergelangan kaki agar sandal tidak terlepas dari kaki pemakainya.\"},{\"id\":32,\"name\":\"Sepatu\",\"image\":\"http://localhost:8000/images/materi/sepatu.png\",\"deskripsi\":\"Sepatu adalah salah satu jenis alas kaki yang biasanya terdiri atas bagian-bagian sol, hak, kap, tali, dan lidah.Biasanya juga terbuat dari kanvas atau kulit yang menutupi semua bagian mulai dari jari jemari, punggung kaki hingga bagian tumit yang difungsikan untuk melindungi kaki dari kotoran berupa debu, kerikil, atau bahkan lumpur.\"},{\"id\":33,\"name\":\"Sepeda\",\"image\":\"http://localhost:8000/images/materi/sepeda.png\",\"deskripsi\":\"Sepeda atau kereta angin adalah kendaraan beroda dua atau tiga yang mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya.\"},{\"id\":34,\"name\":\"Setrika\",\"image\":\"http://localhost:8000/images/materi/setrika.png\",\"deskripsi\":\"Setrika adalah alat untuk melicinkan pakaian dan sebagainya yang terbuat dari besi dan cara memakainya dengan dipanaskan oleh listrik.\"},{\"id\":35,\"name\":\"Spidol\",\"image\":\"http://localhost:8000/images/materi/spidol.png\",\"deskripsi\":\"Spidol adalah sejenis pena yang memiliki sumber tinta sendiri dan ujungnya terbuat dari serat berpori dan ditekan seperti kain.\"},{\"id\":36,\"name\":\"Tisu\",\"image\":\"http://localhost:8000/images/materi/tisu.png\",\"deskripsi\":\"Tisu atau kertas selampai adalah sejenis kertas krep ringan yang dapat digunakan untuk berbagai tujuan, seperti kertas tisu higienis, tisu wajah, handuk kertas, kertas pembungkus, dan lainnya.\"},{\"id\":37,\"name\":\"Topi\",\"image\":\"http://localhost:8000/images/materi/topi.png\",\"deskripsi\":\"Topi adalah suatu jenis penutup kepala yang terbuat dari kain.Penggunaan Topi digunakan untuk beberapa alasan.Seperti untuk aksesoris pakaian dan sebagai pelindung dari sinar matahari.\"},{\"id\":38,\"name\":\"Traktor\",\"image\":\"http://localhost:8000/images/materi/traktor.png\",\"deskripsi\":\"Traktor adalah kendaraan yang dijalankan dengan bensin atau motor diesel, dipakai untuk menarik benda yang berat atau membajak seperti meratakan tanah.\"},{\"id\":39,\"name\":\"Wajan\",\"image\":\"http://localhost:8000/images/materi/wajan.png\",\"deskripsi\":\"Wajan adalah alat memasak terbuat dari baja atau logam lain yang diletakkan di atas kompor atau tungku dan digunakan untuk wadah makanan yang akan diolah.\"},{\"id\":40,\"name\":\"Meja\",\"image\":\"http://localhost:8000/images/materi/meja.png\",\"deskripsi\":\"Meja adalah sebuah mebel atau perabotan yang memiliki permukaan datar dan kaki-kaki sebagai penyangga, yang bentuk dan fungsinya bermacam-macam.Meja sering dipakai untuk menaruh barang atau makanan.Meja umumnya dipasangkan dengan kursi atau bangku.\"}]");
 
 /***/ }),
 
@@ -75161,10 +75024,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/header */ "./resources/js/components/header.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./resources/js/components/footer.js");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -75188,8 +75049,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 
 
@@ -75512,16 +75371,15 @@ var ListMateri = /*#__PURE__*/function (_Component) {
 
     _this = _super.call(this, props);
 
-    _defineProperty(_assertThisInitialized(_this), "handlePageChange", function (pageNumber) {
-      console.log("active page is ".concat(pageNumber));
-
+    _defineProperty(_assertThisInitialized(_this), "handleClick", function (event) {
       _this.setState({
-        activePage: pageNumber
+        currentPage: Number(event.target.id)
       });
     });
 
     _this.state = {
-      activePage: 0
+      currentPage: 1,
+      itemsPerPage: 8
     };
     return _this;
   }
@@ -75529,13 +75387,15 @@ var ListMateri = /*#__PURE__*/function (_Component) {
   _createClass(ListMateri, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "text-center-light fs-2"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Materi Pembelajaran")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row"
-      }, _data_materi_json__WEBPACK_IMPORTED_MODULE_2__.map(function (postDetail, index) {
+      var _this2 = this;
+
+      var _this$state = this.state,
+          currentPage = _this$state.currentPage,
+          itemsPerPage = _this$state.itemsPerPage;
+      var indexOfLastItem = currentPage * itemsPerPage;
+      var indexOfFirstItem = indexOfLastItem - itemsPerPage;
+      var currentItems = _data_materi_json__WEBPACK_IMPORTED_MODULE_2__.slice(indexOfFirstItem, indexOfLastItem);
+      var renderItems = currentItems.map(function (postDetail, index) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "col-md-3 item-materi",
           key: index
@@ -75546,13 +75406,43 @@ var ListMateri = /*#__PURE__*/function (_Component) {
           className: "image-list",
           alt: ""
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, postDetail.name)));
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_js_pagination__WEBPACK_IMPORTED_MODULE_3___default.a, {
-        activePage: this.state.activePage,
-        itemsCountPerPage: 8,
-        totalItemsCount: 40,
-        pageRangeDisplayed: 5,
-        onChange: this.handlePageChange
-      }));
+      });
+      var pageNumbers = [];
+
+      for (var i = 1; i <= Math.ceil(_data_materi_json__WEBPACK_IMPORTED_MODULE_2__.length / itemsPerPage); i++) {
+        pageNumbers.push(i);
+      }
+
+      var renderPageNumbers = pageNumbers.map(function (number) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: "list-pagination",
+          key: number,
+          id: number,
+          onClick: _this2.handleClick
+        }, number);
+      });
+      var totalPage = _data_materi_json__WEBPACK_IMPORTED_MODULE_2__.length / itemsPerPage;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-center-light fs-2"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Materi Pembelajaran"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "item-per-page"
+      }, currentPage, "/", totalPage)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, renderItems), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "pagination"
+      }, renderPageNumbers), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "column-button"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/pertanyaan",
+        className: "button-navigation",
+        id: "try-quiz"
+      }, "Coba kuis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/home",
+        className: "button-navigation",
+        id: "back-menu"
+      }, "Kembali")));
     }
   }]);
 
@@ -76184,7 +76074,7 @@ var Soal = /*#__PURE__*/function (_Component) {
         href: "/pertanyaan",
         className: "button-navigation",
         id: "try-quiz"
-      }, "Coba kuis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Coba Lagi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/home",
         className: "button-navigation",
         id: "back-menu"

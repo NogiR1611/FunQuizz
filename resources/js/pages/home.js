@@ -1,9 +1,6 @@
 import React,{Component} from 'react';
 import {Redirect} from 'react-router-dom';
-import Header from '../components/header';
-import Footer from '../components/footer';
 import "../css/style.css";
-
 
 class Home extends Component{
     constructor(props){
@@ -46,6 +43,7 @@ class Home extends Component{
         else{
             document.getElementById("salam").innerHTML = "Selamat Malam";
         }
+
     }
 
     Logout = () => {
@@ -78,12 +76,12 @@ class Home extends Component{
         return (
             <React.Fragment>
                     <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center home">
-                            <img src={"http://localhost:8000/images/logo.png"} alt="" />
-                            <p>Hai {username},<span id="salam"></span></p>
-                            <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
-                            <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
-                            <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
-                            <button onClick={this.Logout} className="option-menu" id="keluar">Keluar</button>
+                        <img src={"http://localhost:8000/images/logo.png"} alt="" />
+                        <p>Hai {username},<span id="salam"></span></p>
+                        <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
+                        <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
+                        <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
+                        <button onClick={this.Logout} className="option-menu" id="keluar">Keluar</button>
                     </div>
             </React.Fragment>
         );

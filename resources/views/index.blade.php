@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href=" {{ asset('./css/style.css') }}" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="icon" href="{{ URL::asset('/images/favicon.png') }}" type="image/x-icon"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
