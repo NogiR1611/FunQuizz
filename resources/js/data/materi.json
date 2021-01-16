@@ -129,7 +129,7 @@
         "id"        : 22,
         "name"      : "Koper",
         "image"     : "http://localhost:8000/images/materi/koper.png",
-        "deskripsi" : "Koper adalah peti yang terbuat dari kulit (kaleng dan sebagainya) tempat menyimpan pakaian yang dapat dibawa dalam perjalanan."
+        "deskripsi" : "Koper adalah peti yang terbuat dari kulit seperti kaleng dan sebagainya yang digunakan untuk tempat menyimpan pakaian yang dapat dibawa dalam perjalanan."
     },
     {
         "id"        : 23,
@@ -169,9 +169,9 @@
     },
     {
         "id"        : 29,
-        "name"      : "Rak",
-        "image"     : "http://localhost:8000/images/materi/rak.png",
-        "deskripsi" : "Rak adalah susunan kayu untuk meletakkan piring,mangkuk,alat-alat dapur,dan sebagainya"
+        "name"      : "Sabun",
+        "image"     : "http://localhost:8000/images/materi/Sabun.png",
+        "deskripsi" : "Sabun adalah produk yang digunakan sebagai pembersih dengan media air.Secara umum berbentuk padatan atau batang dan ada juga yang cair."
     },
     {
         "id"        : 30,

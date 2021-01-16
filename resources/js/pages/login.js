@@ -29,23 +29,26 @@ class Login extends Component{
             username : this.state.username
         };
 
-        if(data.username === ""){
+        if(!data.username){
+            alert("Ayo isi dulu nama kamu");
             return (
-                <Redirect to="/" />
+                <Redirect to= "/" />
             );
         }
 
-        let appState = {
-            isLoggedIn : true,
-            username : data.username
-        };
-        
-        localStorage["appState"] = JSON.stringify(appState);
-        this.setState({
-            isLoggedIn : appState.isLoggedIn,
-            redirect : true,
-            username : appState.username
-        });
+        else{
+            let appState = {
+                isLoggedIn : true,
+                username : data.username
+            };
+            
+            localStorage["appState"] = JSON.stringify(appState);
+            this.setState({
+                isLoggedIn : appState.isLoggedIn,
+                redirect : true,
+                username : appState.username
+            });
+        }
     }
 
     render(){

@@ -23,7 +23,12 @@ class ListMateri extends Component{
         const {currentPage,itemsPerPage} = this.state;
         const indexOfLastItem = currentPage * itemsPerPage;
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-        const currentItems = PostData.slice(indexOfFirstItem,indexOfLastItem);
+        const sortData = PostData.sort((a,b) => {
+            if(a.name < b.name) { return -1; }
+            if(a.name > b.name) { return 1; }
+            return 0;
+        })
+        const currentItems = sortData.slice(indexOfFirstItem,indexOfLastItem);
 
         const renderItems = currentItems.map((postDetail,index) => {
             return (

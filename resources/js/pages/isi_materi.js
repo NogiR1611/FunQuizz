@@ -1,16 +1,50 @@
-import React,{Component} from "react";
+import React,{Component,useState} from "react";
 import PostData from "../data/materi.json";
 import {useSpeechSynthesis} from "react-speech-kit";
 import "../css/style.css";
 
 const Speech = (props) => {
-    const { speak,voices } = useSpeechSynthesis();
+    const [rate,setRate] = useState(0.6);
+    const { speak,voices,cancel,speaking } = useSpeechSynthesis();
     const voice = voices[9];
+
     return (
-        <button onClick={() => speak({ text:props.text,voice }) } className="btn btn-primary fs-3">
-            <img src={"http://localhost:8000/images/speaker.png"} className="speaker-icon" />
-            Nyalakan Suara
-        </button>
+        <div className="text-white">
+            <p className="fs-4">Kecepatan Suara : {rate}</p>
+            <input
+                type="range"
+                min="0.5"
+                max="2"
+                defaultValue="1"
+                step="0.1"
+                id="rate"
+                onChange={ (event) => {
+                    setRate(event.target.value);
+                    setIsSounding(true)
+                }}
+            /><br/>
+            { speaking ?
+            (
+                <button onClick={cancel} className="btn btn-primary fs-3">
+                    <img src={"http://localhost:8000/images/stop.png"} className="stop-icon" />
+                    Berhenti
+                </button>
+            )
+            :
+            (
+                <button
+                    onClick={() => {
+                        speak({ text:props.text,voice,rate });
+                        
+                    }}
+                    className="btn btn-primary fs-3"
+                 >
+                    <img src={"http://localhost:8000/images/speaker.png"} className="speaker-icon" />
+                    Nyalakan Suara
+                </button>
+            )
+            }
+        </div>
     );
 }
 
@@ -35,7 +69,7 @@ class Materi extends Component{
     }
 
     render(){
-        const {name,image,description} = this.state;
+        const {name,image,description,isSounding} = this.state;
         return (
                 <div className="item-page">
                     <div className="text-center text-white m-5">
