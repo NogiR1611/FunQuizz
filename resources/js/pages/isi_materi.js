@@ -4,7 +4,7 @@ import {useSpeechSynthesis} from "react-speech-kit";
 import "../css/style.css";
 
 const Speech = (props) => {
-    const [rate,setRate] = useState(0.6);
+    const [rate,setRate] = useState(1);
     const { speak,voices,cancel,speaking } = useSpeechSynthesis();
     const voice = voices[9];
 
@@ -66,9 +66,9 @@ class Materi extends Component{
         const id = result[0].id;
 
         this.setState({
-            name : PostData[id - 9]["name"],
-            image : PostData[id - 9]["image"],
-            description : PostData[id - 9]["deskripsi"]
+            name : PostData[id-1]["name"],
+            image : PostData[id-1]["image"],
+            description : PostData[id-1]["deskripsi"]
         });
 
         /*

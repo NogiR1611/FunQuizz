@@ -1,171 +1,171 @@
 [
     {
-        "id"        :  1,
-        "name"      :  "Ransel",
-        "image"     :  "http://localhost:8000/images/materi/ransel.png",
-        "deskripsi" :   "Ransel adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain."
-    },
-    {
-        "id"        :  2,
-        "name"      :  "Mobil",
-        "image"     :  "http://localhost:8000/images/materi/mobil.png",
-        "deskripsi" :  "Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya."
-    },
-    {
-        "id"        :  3,
-        "name"      :  "Sepeda Motor",
-        "image"     :  "http://localhost:8000/images/materi/motor.png",
-        "deskripsi" :  "Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya."
-    },
-    {
-        "id"        :  4,
-        "name"      : "Pensil",
-        "image"     : "http://localhost:8000/images/materi/pensil.png",
-        "deskripsi" : "Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras."
-    },
-    {
-        "id"        : 5,
-        "name"      : "Lemari",
-        "image"     : "http://localhost:8000/images/materi/lemari.png",
-        "deskripsi" : "Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian."
-    },
-    {
-        "id"        : 6,
-        "name"      : "Rak",
-        "image"     : "http://localhost:8000/images/materi/rak.png",
-        "deskripsi" : "Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lainnya."
-    },
-    {
-        "id"        : 7,
-        "name"      : "Kursi",
-        "image"     : "http://localhost:8000/images/materi/kursi.png",
-        "deskripsi" : "Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu."
-    },
-    {
-        "id"        : 8,
-        "name"      : "Laptop",
-        "image"     : "http://localhost:8000/images/materi/laptop.png",
-        "deskripsi" : "Laptop adalah komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor,biasanya dilengkapi dengan baterai yang dapat diisi ulang."
-    },
-    {
-        "id"        : 9,
+        "id"        : 1,
         "name"      : "Buku",
         "image"     : "http://localhost:8000/images/materi/buku.png",
         "deskripsi" : "Buku adalah kumpulan atau himpunan kertas atau bahan lainnya yang dijilid menjadi satu pada salah satu ujungnya dan berisi tulisan, gambar, atau tempelan. Setiap sisi dari sebuah lembaran kertas pada buku disebut sebuah halaman."
     },
     {
-        "id"        : 10,
+        "id"        : 2,
         "name"      : "Cangkir",
         "image"     : "http://localhost:8000/images/materi/cangkir.png",
         "deskripsi" : "Cangkir adalah wadah kecil untuk minum teh atau kopi dengan pegangan di salah satu sisi yang digunakan sewaktu memegang dengan ibu jari dan jari tangan yang lainnya."
     },
     {
-        "id"        : 11,
+        "id"        : 3,
         "name"      : "Gelas",
         "image"     : "http://localhost:8000/images/materi/gelas.png",
         "deskripsi" : "Gelas adalah benda yang kita sering temui setiap hari baik di rumah maupun di tempat – tempat lain yang membutuhkan gelas. Gelas ini juga memilki arti yaitu sebuah wadah untuk minum, umumnya gelas berwarna transparan tetapi banyak juga gelas yang diproduksi dengan berbagai macam warna."
     },
     {
-        "id"        : 12,
+        "id"        : 4,
         "name"      : "Gitar",
         "image"     : "http://localhost:8000/images/materi/gitar.png",
         "deskripsi" : "Gitar adalah sebuah alat musik berdawai yang dimainkan dengan cara dipetik, umumnya menggunakan jari maupun plektrum. Gitar terbentuk atas sebuah bagian tubuh pokok dengan bagian leher yang padat sebagai tempat senar yang umumnya berjumlah enam didempetkan."
     },
     {
-        "id"        : 13,
+        "id"        : 5,
         "name"      : "Handphone",
         "image"     : "http://localhost:8000/images/materi/handphone.png",
         "deskripsi" : "handphone adalah perangkat telekomunikasi elektronik yang mempunyai kemampuan dasar yang sama dengan telepon konvensional saluran tetap, tetapi dapat dibawa ke mana-mana dan tidak perlu disambungkan dengan jaringan telepon menggunakan kabel."
     },
     {
-        "id"        : 14,
+        "id"        : 6,
         "name"      : "Handuk",
         "image"     : "http://localhost:8000/images/materi/handuk.png",
         "deskripsi" : "Handuk adalah selembar kain atau kertas yang dapat menyerap cairan dan digunakan untuk mengelap atau mengeringkan."
     },
     {
-        "id"        : 15,
+        "id"        : 7,
         "name"      : "Helikopter",
         "image"     : "http://localhost:8000/images/materi/helikopter.png",
         "deskripsi" : "Helikopter adalah pesawat udara dengan baling-baling besar di atas yang berputar horizontal lalu mempercepat massa udara ke arah bawah,dan dengan demikian memperoleh reaksi berupa gaya angkat."
     },
     {
-        "id"        : 16,
+        "id"        : 8,
         "name"      : "Jaket",
         "image"     : "http://localhost:8000/images/materi/jaket.png",
         "deskripsi" : "Jaket adalah baju luar yang panjangnya hingga pinggang atau pinggul,dipakai untuk menahan angin dan cuaca dingin.Bukaan jaket terletak di bagian depan dari leher ke bawah."
     },
     {
-        "id"        : 17,
+        "id"        : 9,
         "name"      : "Jam",
         "image"     : "http://localhost:8000/images/materi/jam.png",
         "deskripsi" : "Jam adalah sebuah alat ukur waktu. Lama sebuah jam adalah 24 jam dalam satu hari.Satu jam bisa dibagi menjadi unit waktu yang lebih kecil lagi.seperti menit kemudian detik."
     },
     {
-        "id"        : 18,
+        "id"        : 10,
         "name"      : "Kamera",
         "image"     : "http://localhost:8000/images/materi/kamera.png",
         "deskripsi" : "Kamera adalah alat yang digunakan untuk mengambil gambar atau foto dengan memanfaatkan cahaya yang ada,termasuk cahaya matahari." 
     },
     {
-        "id"        : 19,
+        "id"        : 11,
         "name"      : "Karpet",
         "image"     : "http://localhost:8000/images/materi/karpet.png",
         "deskripsi" : "Karpet adalah hamparan kain penutup lantai yang dibuat dari bulu domba atau kain tebal."
     },
     {
-        "id"        : 20,
+        "id"        : 12,
         "name"      : "Kasur",
         "image"     : "http://localhost:8000/images/materi/kasur.png",
         "deskripsi" : "Kasur adalah benda yang digunakan untuk alas tidur atau berbaring, yang terdiri dari bahan kain atau plastik, berisi kapuk, karet busa, dan ditutupi dengan kain luar atau kain kasur."
     },
     {
-        "id"        : 21,
+        "id"        : 13,
         "name"      : "Kompor",
         "image"     : "http://localhost:8000/images/materi/kompor.png",
         "deskripsi" : "Kompor adalah alat pengapian untuk memasak yang menggunakan minyak tanah, gas, atau listrik sebagai bahan bakar."
     },
     {
-        "id"        : 22,
+        "id"        : 14,
         "name"      : "Koper",
         "image"     : "http://localhost:8000/images/materi/koper.png",
         "deskripsi" : "Koper adalah peti yang terbuat dari kulit seperti kaleng dan sebagainya yang digunakan untuk tempat menyimpan pakaian yang dapat dibawa dalam perjalanan."
     },
     {
-        "id"        : 23,
+        "id"        : 15,
+        "name"      : "Kursi",
+        "image"     : "http://localhost:8000/images/materi/kursi.png",
+        "deskripsi" : "Kursi adalah tempat duduk yang berkaki dan bersandaran yang biasanya terbuat dari kayu."
+    },
+    {
+        "id"        : 16,
+        "name"      : "Laptop",
+        "image"     : "http://localhost:8000/images/materi/laptop.png",
+        "deskripsi" : "Laptop adalah komputer pribadi yang agak kecil, yang dapat dibawa-bawa dan dapat ditempatkan di pangkuan pengguna, terdiri atas satu perangkat yang mencakupi papan tombol, layar tampilan, mikroprosesor,biasanya dilengkapi dengan baterai yang dapat diisi ulang."
+    },
+    {
+        "id"        : 17,
+        "name"      : "Lemari",
+        "image"     : "http://localhost:8000/images/materi/lemari.png",
+        "deskripsi" : "Lemari adalah peti besar tempat menyimpan sesuatu seperti buku dan pakaian."
+    },
+    {
+        "id"        : 18,
         "name"      : "Masker",
         "image"     : "http://localhost:8000/images/materi/masker.png",
         "deskripsi" : "Masker adalah kain penutup mulut dan hidung yang digunakan untuk mencegah berbagai penyakit masuk lewat mulut dan hidung."
     },
     {
-        "id"        : 24,
+        "id"        : 19,
+        "name"      : "Meja",
+        "image"     : "http://localhost:8000/images/materi/meja.png",
+        "deskripsi" : "Meja adalah sebuah mebel atau perabotan yang memiliki permukaan datar dan kaki-kaki sebagai penyangga, yang bentuk dan fungsinya bermacam-macam.Meja sering dipakai untuk menaruh barang atau makanan.Meja umumnya dipasangkan dengan kursi atau bangku."
+    },
+    {
+        "id"        : 20,
+        "name"      : "Mobil",
+        "image"     : "http://localhost:8000/images/materi/mobil.png",
+        "deskripsi" : "Mobil adalah kendaraan darat yang digerakkan oleh tenaga mesin,beroda empat atau lebih (selalu genap),biasanya menggunakan bahan bakar minyak untuk menghidupkan mesinnya."
+    },
+    {
+        "id"        : 21,
         "name"      : "Obeng",
         "image"     : "http://localhost:8000/images/materi/obeng.png",
         "deskripsi" : "Obeng adalah sebuah alat yang digunakan untuk memasang atau melepaskan baut."
     },
     {
-        "id"        : 25,
+        "id"        : 22,
         "name"      : "Panci",
         "image"     : "http://localhost:8000/images/materi/panci.png",
         "deskripsi" : "Panci adalah alat masak yang terbuat dari logam dan berbentuk silinder atau mengecil pada bagian bawahnya."
     },
     {
-        "id"        : 26,
+        "id"        : 23,
+        "name"      : "Pensil",
+        "image"     : "http://localhost:8000/images/materi/pensil.png",
+        "deskripsi" : "Pensil adalah alat tulis berupa kayu kecil bulat berisi arang keras."
+    },
+    {
+        "id"        : 24,
         "name"      : "Pesawat",
         "image"     : "http://localhost:8000/images/materi/pesawat.png",
         "deskripsi" : "Pesawat terbang atau pesawat udara adalah mesin atau kendaraan apapun yang mampu terbang di atmosfer atau udara dengan memiliki sayap tetap."
     },
     {
-        "id"        : 27,
+        "id"        : 25,
         "name"      : "Piring",
         "image"     : "http://localhost:8000/images/materi/piring.png",
         "deskripsi" : "Piring adalah wadah berbentuk bundar pipih dan sedikit cekung,yang terbuat dari seng atau plastik yang digunakan untuk tempat makan."
     },
     {
-        "id"        : 28,
+        "id"        : 26,
         "name"      : "Pulpen",
         "image"     : "http://localhost:8000/images/materi/pulpen.png",
         "deskripsi" : "Pulpen adalah alat tulis berupa mata pena berujung tajam yang dilengkapi pegangan berisi kantong tinta yang bisa diisi kembali."
+    },
+    {
+        "id"        : 27,
+        "name"      : "Rak",
+        "image"     : "http://localhost:8000/images/materi/rak.png",
+        "deskripsi" : "Rak adalah lemari yang tidak berpintu atau kepingan papan diberi bertiang untuk tempat buku, sepatu, dan barang-barang lainnya."
+    },
+    {
+        "id"        : 28,
+        "name"      : "Ransel",
+        "image"     : "http://localhost:8000/images/materi/ransel.png",
+        "deskripsi" : "Ransel adalah wadah tertutup yang dapat dibawa bepergian. Materi untuk membuat tas antara lain adalah kertas, plastik, kulit,dan kain. Biasanya digunakan untuk membawa pakaian, buku, dan lain-lain."
     },
     {
         "id"        : 29,
@@ -199,44 +199,44 @@
     },
     {
         "id"        : 34,
+        "name"      : "Sepeda Motor",
+        "image"     : "http://localhost:8000/images/materi/motor.png",
+        "deskripsi" : "Sepeda motor adalah kendaraan beroda dua atau tiga, mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya."
+    },
+    {
+        "id"        : 35,
         "name"      : "Setrika",
         "image"     : "http://localhost:8000/images/materi/setrika.png",
         "deskripsi" : "Setrika adalah alat untuk melicinkan pakaian dan sebagainya yang terbuat dari besi dan cara memakainya dengan dipanaskan oleh listrik."
     },
     {
-        "id"        : 35,
+        "id"        : 36,
         "name"      : "Spidol",
         "image"     : "http://localhost:8000/images/materi/spidol.png",
         "deskripsi" : "Spidol adalah sejenis pena yang memiliki sumber tinta sendiri dan ujungnya terbuat dari serat berpori dan ditekan seperti kain."
     },
     {
-        "id"        : 36,
+        "id"        : 37,
         "name"      : "Tisu",
         "image"     : "http://localhost:8000/images/materi/tisu.png",
         "deskripsi" : "Tisu atau kertas selampai adalah sejenis kertas krep ringan yang dapat digunakan untuk berbagai tujuan, seperti kertas tisu higienis, tisu wajah, handuk kertas, kertas pembungkus, dan lainnya."
     },
     {
-        "id"        : 37,
+        "id"        : 38,
         "name"      : "Topi",
         "image"     : "http://localhost:8000/images/materi/topi.png",
         "deskripsi" : "Topi adalah suatu jenis penutup kepala yang terbuat dari kain.Penggunaan Topi digunakan untuk beberapa alasan.Seperti untuk aksesoris pakaian dan sebagai pelindung dari sinar matahari."
     },
     {
-        "id"        : 38,
+        "id"        : 39,
         "name"      : "Traktor",
         "image"     : "http://localhost:8000/images/materi/traktor.png",
         "deskripsi" : "Traktor adalah kendaraan yang dijalankan dengan bensin atau motor diesel, dipakai untuk menarik benda yang berat atau membajak seperti meratakan tanah."
     },
     {
-        "id"        : 39,
+        "id"        : 40,
         "name"      : "Wajan",
         "image"     : "http://localhost:8000/images/materi/wajan.png",
         "deskripsi" : "Wajan adalah alat memasak terbuat dari baja atau logam lain yang diletakkan di atas kompor atau tungku dan digunakan untuk wadah makanan yang akan diolah."
-    },
-    {
-        "id"        : 40,
-        "name"      : "Meja",
-        "image"     : "http://localhost:8000/images/materi/meja.png",
-        "deskripsi" : "Meja adalah sebuah mebel atau perabotan yang memiliki permukaan datar dan kaki-kaki sebagai penyangga, yang bentuk dan fungsinya bermacam-macam.Meja sering dipakai untuk menaruh barang atau makanan.Meja umumnya dipasangkan dengan kursi atau bangku."
     }
 ]
