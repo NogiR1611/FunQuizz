@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 import {Link} from "react-router-dom";
 import PostData from "../data/materi.json";
-import Pagination from "react-js-pagination";
 import "../css/style.css";
 
 class ListMateri extends Component{
@@ -27,13 +26,13 @@ class ListMateri extends Component{
             if(a.name < b.name) { return -1; }
             if(a.name > b.name) { return 1; }
             return 0;
-        })
+        });
         const currentItems = sortData.slice(indexOfFirstItem,indexOfLastItem);
 
         const renderItems = currentItems.map((postDetail,index) => {
             return (
                 <div className="col-md-3 item-materi" key={index}>
-                    <Link to={'/list-materi/' + postDetail.id } >
+                    <Link to={'/list-materi/' + postDetail.name } >
                         <img src={postDetail.image} className="image-list" alt="" />
                         <h1>{postDetail.name}</h1>
                     </Link>

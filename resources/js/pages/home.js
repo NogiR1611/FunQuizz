@@ -81,7 +81,7 @@ class Home extends Component{
                         <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
                         <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
                         <a href="/skor-terakhir" className="option-menu" id="lihat-skor">Lihat Skor terakhir kamu</a>
-                        <button onClick={this.Logout} className="option-menu" id="keluar">Keluar</button>
+                        <button onClick={this.Logout} className="option-menu" id="keluar">Ganti Nama Kamu</button>
                     </div>
             </React.Fragment>
         );

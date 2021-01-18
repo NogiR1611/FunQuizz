@@ -59,13 +59,25 @@ class Materi extends Component{
     }
 
     componentDidMount(){
-        const {id} = this.props.match.params;
-        
+        const {name} = this.props.match.params;
+        const result = PostData.filter( item => {
+            return item.name === name;
+        });
+        const id = result[0].id;
+
         this.setState({
-            name : PostData[id-1]['name'],
-            image : PostData[id-1]['image'],
-            description : PostData[id-1]['deskripsi']
+            name : PostData[id - 9]["name"],
+            image : PostData[id - 9]["image"],
+            description : PostData[id - 9]["deskripsi"]
+        });
+
+        /*
+        this.setState({
+            name : PostData[id - 9]['name'],
+            image : PostData[id - 9]['image'],
+            description : PostData[id - 9]['deskripsi']
         })
+        */
     }
 
     render(){
