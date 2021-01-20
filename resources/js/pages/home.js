@@ -76,7 +76,7 @@ class Home extends Component{
         return (
             <React.Fragment>
                     <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center home">
-                        <img src={"http://localhost:8000/images/logo.png"} alt="" />
+                        <img src={"/storage/images/logo.png"} alt="" />
                         <p>Hai {username},<span id="salam"></span></p>
                         <a href="/list-materi" className="option-menu" id="belajar">Belajar Dulu</a>
                         <a href="/pertanyaan" className="option-menu" id="mulai">Mulai Kuis</a>
