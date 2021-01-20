@@ -20,7 +20,6 @@ const Speech = (props) => {
                 id="rate"
                 onChange={ (event) => {
                     setRate(event.target.value);
-                    setIsSounding(true)
                 }}
             /><br/>
             { speaking ?
@@ -81,7 +80,7 @@ class Materi extends Component{
     }
 
     render(){
-        const {name,image,description,isSounding} = this.state;
+        const {name,image,description} = this.state;
         return (
                 <div className="item-page">
                     <div className="text-center text-white m-5">

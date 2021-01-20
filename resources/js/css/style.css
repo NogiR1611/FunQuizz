@@ -5,6 +5,7 @@ html{
 body{
     background-image: url("../asset/img/bg.png");
     background-size: 100%;
+    background-repeat: no-repeat;
     height: 100%;
     font-family: 'Raleway', sans-serif;
 }
@@ -21,6 +22,11 @@ body{
     margin: auto auto;
     background-color: white;
     border-radius: 10px;
+    width: 500px;
+}
+
+.form-login p{
+    font-size: 28px;
 }
 
 .home{
@@ -263,4 +269,14 @@ body{
 
 .item-per-page{
     text-align: center;
+}
+
+@media screen and (max-width:1024px){
+    .form-login{
+        width: 350px;
+    }
+
+    .form-login p{
+        font-size: 22px;
+    }
 }

@@ -87,7 +87,7 @@ class Soal extends Component{
 
         localStorage["userScore"] = JSON.stringify(value);
         return (
-            <container>
+            <React.Fragment>
                 {showScore ? (
                     <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center result-score">
                         <p>Hai {User}</p>
@@ -96,7 +96,7 @@ class Soal extends Component{
                         <p>Jadi nilai kamu yaitu :</p>
                         <span>{result}</span>
                         <p>{state}</p>
-                        <div>
+                        <div className="">
                             <a href="/pertanyaan" className="button-navigation" id="try-quiz">Coba Lagi</a>
                             <a href="/home" className="button-navigation" id="back-menu">Kembali</a>
                         </div>
@@ -125,7 +125,7 @@ class Soal extends Component{
                     </div>
                 </div>
                 )}
-            </container>
+            </React.Fragment>
         );
     }
 }

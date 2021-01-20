@@ -60,8 +60,8 @@ class Login extends Component{
         }
         return (
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center bg-login">
-                <form className="p-3 border col-sm-4 form-login" onSubmit={this.onSubmit}>
-                    <p className="align-middle fs-3">Ayo masukin nama kamu</p>
+                <form className="p-3 border form-login" onSubmit={this.onSubmit}>
+                    <p className="align-middle">Ayo masukin nama kamu</p>
                     <input type="hidden" name="csrf-token" value="{{{ csrf_token() }}}" />
                     <div className="text-center mb-8">
                         <label class="form-label fs-5">Nama : </label><br/>
