@@ -1,6 +1,6 @@
 [
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/ransel.png",
+        "imageQuestion" : "/images/materi/ransel.png",
         "answerOptions"  : [
             { "answerText" : "Ransel","isCorrect" : true },
             { "answerText" : "Baju","isCorrect" : false },
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/mobil.png",
+        "imageQuestion" : "/images/materi/mobil.png",
         "answerOptions"  : [
             { "answerText" : "Tas","isCorrect" : false },
             { "answerText" : "Mobil","isCorrect" : true },
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/motor.png",
+        "imageQuestion" : "/images/materi/motor.png",
         "answerOptions"  : [
             { "answerText" : "Mobil","isCorrect" : false },
             { "answerText" : "Baju","isCorrect" : false },
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/sabun.png",
+        "imageQuestion" : "/images/materi/sabun.png",
         "answerOptions"  : [
             { "answerText" : "Wajan","isCorrect" : false },
             { "answerText" : "Celana","isCorrect" : false },
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/buku.png",
+        "imageQuestion" : "/images/materi/buku.png",
         "answerOptions"  : [
             { "answerText" : "Baju","isCorrect" : false },
             { "answerText" : "Celana","isCorrect" : false },
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/gelas.png",
+        "imageQuestion" : "/images/materi/gelas.png",
         "answerOptions"  : [
             { "answerText" : "Handphone","isCorrect" : false },
             { "answerText" : "Gelas","isCorrect" : true },
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/cangkir.png",
+        "imageQuestion" : "/images/materi/cangkir.png",
         "answerOptions"  : [
             { "answerText" : "Helikopter","isCorrect" : false },
             { "answerText" : "Rak","isCorrect" : false },
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/gitar.png",
+        "imageQuestion" : "/images/materi/gitar.png",
         "answerOptions"  : [
             { "answerText" : "Gitar","isCorrect" : true },
             { "answerText" : "Pesawat","isCorrect" : false },
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/handphone.png",
+        "imageQuestion" : "/images/materi/handphone.png",
         "answerOptions"  : [
             { "answerText" : "Jam","isCorrect" : false },
             { "answerText" : "Kasur","isCorrect" : false },
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/handuk.png",
+        "imageQuestion" : "/images/materi/handuk.png",
         "answerOptions"  : [
             { "answerText" : "Traktor","isCorrect" : false },
             { "answerText" : "Handuk","isCorrect" : true },
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/buku.png",
+        "imageQuestion" : "/images/materi/buku.png",
         "answerOptions"  : [
             { "answerText" : "Buku","isCorrect" : true },
             { "answerText" : "Helikopter","isCorrect" : false },
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/helikopter.png",
+        "imageQuestion" : "/images/materi/helikopter.png",
         "answerOptions"  : [
             { "answerText" : "Pesawat","isCorrect" : false },
             { "answerText" : "Helikopter","isCorrect" : true },
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/jaket.png",
+        "imageQuestion" : "/images/materi/jaket.png",
         "answerOptions"  : [
             { "answerText" : "Traktor","isCorrect" : false },
             { "answerText" : "Obeng","isCorrect" : false },
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/jam.png",
+        "imageQuestion" : "/images/materi/jam.png",
         "answerOptions"  : [
             { "answerText" : "Motor","isCorrect" : false },
             { "answerText" : "Kursi","isCorrect" : false },
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/kasur.png",
+        "imageQuestion" : "/images/materi/kasur.png",
         "answerOptions"  : [
             { "answerText" : "Kasur","isCorrect" : true },
             { "answerText" : "Pulpen","isCorrect" : false },
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/kompor.png",
+        "imageQuestion" : "/images/materi/kompor.png",
         "answerOptions"  : [
             { "answerText" : "Masker","isCorrect" : false },
             { "answerText" : "Kompor","isCorrect" : true },
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/koper.png",
+        "imageQuestion" : "/images/materi/koper.png",
         "answerOptions"  : [
             { "answerText" : "Wajan","isCorrect" : false },
             { "answerText" : "Buku","isCorrect" : false },
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/kursi.png",
+        "imageQuestion" : "/images/materi/kursi.png",
         "answerOptions"  : [
             { "answerText" : "Lemari","isCorrect" : false },
             { "answerText" : "Mobil","isCorrect" : false },
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/laptop.png",
+        "imageQuestion" : "/images/materi/laptop.png",
         "answerOptions"  : [
             { "answerText" : "Laptop","isCorrect" : true },
             { "answerText" : "Kamera","isCorrect" : false },
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/lemari.png",
+        "imageQuestion" : "/images/materi/lemari.png",
         "answerOptions"  : [
             { "answerText" : "Pulpen","isCorrect" : false },
             { "answerText" : "Lemari","isCorrect" : true },
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/masker.png",
+        "imageQuestion" : "/images/materi/masker.png",
         "answerOptions"  : [
             { "answerText" : "Tisu","isCorrect" : false },
             { "answerText" : "Topi","isCorrect" : false },
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/meja.png",
+        "imageQuestion" : "/images/materi/meja.png",
         "answerOptions"  : [
             { "answerText" : "Pulpen","isCorrect" : false },
             { "answerText" : "Panci","isCorrect" : false },
@@ -198,7 +198,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/obeng.png",
+        "imageQuestion" : "/images/materi/obeng.png",
         "answerOptions"  : [
             { "answerText" : "Obeng","isCorrect" : true },
             { "answerText" : "Kasur","isCorrect" : false },
@@ -207,7 +207,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/panci.png",
+        "imageQuestion" : "/images/materi/panci.png",
         "answerOptions"  : [
             { "answerText" : "Sendal","isCorrect" : false },
             { "answerText" : "Panci","isCorrect" : true },
@@ -216,7 +216,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/pesawat.png",
+        "imageQuestion" : "/images/materi/pesawat.png",
         "answerOptions"  : [
             { "answerText" : "Kompor","isCorrect" : false },
             { "answerText" : "Lemari","isCorrect" : false },
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/piring.png",
+        "imageQuestion" : "/images/materi/piring.png",
         "answerOptions"  : [
             { "answerText" : "Handphone","isCorrect" : false },
             { "answerText" : "Handuk","isCorrect" : false },
@@ -234,7 +234,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/pulpen.png",
+        "imageQuestion" : "/images/materi/pulpen.png",
         "answerOptions"  : [
             { "answerText" : "Pulpen","isCorrect" : true },
             { "answerText" : "Sepeda","isCorrect" : false },
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/rak.png",
+        "imageQuestion" : "/images/materi/rak.png",
         "answerOptions"  : [
             { "answerText" : "Gitar","isCorrect" : false },
             { "answerText" : "Rak","isCorrect" : true },
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/sajadah.png",
+        "imageQuestion" : "/images/materi/sajadah.png",
         "answerOptions"  : [
             { "answerText" : "Motor","isCorrect" : false },
             { "answerText" : "Obeng","isCorrect" : false },
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/sendal.png",
+        "imageQuestion" : "/images/materi/sendal.png",
         "answerOptions"  : [
             { "answerText" : "Mobil","isCorrect" : false },
             { "answerText" : "Obeng","isCorrect" : false },
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/sepatu.png",
+        "imageQuestion" : "/images/materi/sepatu.png",
         "answerOptions"  : [
             { "answerText" : "Sepatu","isCorrect" : true },
             { "answerText" : "Mobil","isCorrect" : false },
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/sepeda.png",
+        "imageQuestion" : "/images/materi/sepeda.png",
         "answerOptions"  : [
             { "answerText" : "Lemari","isCorrect" : false },
             { "answerText" : "Sepeda","isCorrect" : true },
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/setrika.png",
+        "imageQuestion" : "/images/materi/setrika.png",
         "answerOptions"  : [
             { "answerText" : "Kamera","isCorrect" : false },
             { "answerText" : "Masker","isCorrect" : false },
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/spidol.png",
+        "imageQuestion" : "/images/materi/spidol.png",
         "answerOptions"  : [
             { "answerText" : "Wajan","isCorrect" : false },
             { "answerText" : "Cangkir","isCorrect" : false },
@@ -306,7 +306,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/tisu.png",
+        "imageQuestion" : "/images/materi/tisu.png",
         "answerOptions"  : [
             { "answerText" : "Tisu","isCorrect" : true },
             { "answerText" : "Kamera","isCorrect" : false },
@@ -315,7 +315,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/topi.png",
+        "imageQuestion" : "/images/materi/topi.png",
         "answerOptions"  : [
             { "answerText" : "Wajan","isCorrect" : false },
             { "answerText" : "Topi","isCorrect" : true },
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/traktor.png",
+        "imageQuestion" : "/images/materi/traktor.png",
         "answerOptions"  : [
             { "answerText" : "Ransel","isCorrect" : false },
             { "answerText" : "Traktor","isCorrect" : true },
@@ -333,7 +333,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/wajan.png",
+        "imageQuestion" : "/images/materi/wajan.png",
         "answerOptions"  : [
             { "answerText" : "Meja","isCorrect" : false },
             { "answerText" : "Helikopter","isCorrect" : false },
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/kamera.png",
+        "imageQuestion" : "/images/materi/kamera.png",
         "answerOptions"  : [
             { "answerText" : "Pulpen","isCorrect" : false },
             { "answerText" : "Lemari","isCorrect" : false },
@@ -351,7 +351,7 @@
         ]
     },
     {
-        "imageQuestion" : "http://localhost:8000/images/materi/karpet.png",
+        "imageQuestion" : "/images/materi/karpet.png",
         "answerOptions"  : [
             { "answerText" : "Karpet","isCorrect" : true },
             { "answerText" : "Mobil","isCorrect" : false },
