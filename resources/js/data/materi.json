@@ -2,49 +2,49 @@
     {
         "id"        : 1,
         "name"      : "Buku",
-        "image"     : "/storage/materi/buku.png",
+        "image"     : "/images/materi/buku.png",
         "deskripsi" : "Buku adalah kumpulan atau himpunan kertas atau bahan lainnya yang dijilid menjadi satu pada salah satu ujungnya dan berisi tulisan, gambar, atau tempelan. Setiap sisi dari sebuah lembaran kertas pada buku disebut sebuah halaman."
     },
     {
         "id"        : 2,
         "name"      : "Cangkir",
-        "image"     : "/storage/materi/cangkir.png",
+        "image"     : "/images/materi/cangkir.png",
         "deskripsi" : "Cangkir adalah wadah kecil untuk minum teh atau kopi dengan pegangan di salah satu sisi yang digunakan sewaktu memegang dengan ibu jari dan jari tangan yang lainnya."
     },
     {
         "id"        : 3,
         "name"      : "Gelas",
-        "image"     : "/storage/materi/gelas.png",
+        "image"     : "/images/materi/gelas.png",
         "deskripsi" : "Gelas adalah benda yang kita sering temui setiap hari baik di rumah maupun di tempat – tempat lain yang membutuhkan gelas. Gelas ini juga memilki arti yaitu sebuah wadah untuk minum, umumnya gelas berwarna transparan tetapi banyak juga gelas yang diproduksi dengan berbagai macam warna."
     },
     {
         "id"        : 4,
         "name"      : "Gitar",
-        "image"     : "/storage/materi/gitar.png",
+        "image"     : "/images/materi/gitar.png",
         "deskripsi" : "Gitar adalah sebuah alat musik berdawai yang dimainkan dengan cara dipetik, umumnya menggunakan jari maupun plektrum. Gitar terbentuk atas sebuah bagian tubuh pokok dengan bagian leher yang padat sebagai tempat senar yang umumnya berjumlah enam didempetkan."
     },
     {
         "id"        : 5,
         "name"      : "Handphone",
-        "image"     : "/storage/materi/handphone.png",
+        "image"     : "/images/materi/handphone.png",
         "deskripsi" : "handphone adalah perangkat telekomunikasi elektronik yang mempunyai kemampuan dasar yang sama dengan telepon konvensional saluran tetap, tetapi dapat dibawa ke mana-mana dan tidak perlu disambungkan dengan jaringan telepon menggunakan kabel."
     },
     {
         "id"        : 6,
         "name"      : "Handuk",
-        "image"     : "/storage/materi/handuk.png",
+        "image"     : "/images/materi/handuk.png",
         "deskripsi" : "Handuk adalah selembar kain atau kertas yang dapat menyerap cairan dan digunakan untuk mengelap atau mengeringkan."
     },
     {
         "id"        : 7,
         "name"      : "Helikopter",
-        "image"     : "/storage/materi/helikopter.png",
+        "image"     : "/images/materi/helikopter.png",
         "deskripsi" : "Helikopter adalah pesawat udara dengan baling-baling besar di atas yang berputar horizontal lalu mempercepat massa udara ke arah bawah,dan dengan demikian memperoleh reaksi berupa gaya angkat."
     },
     {
         "id"        : 8,
         "name"      : "Jaket",
-        "image"     : "/storage/materi/jaket.png",
+        "image"     : "/images/materi/jaket.png",
         "deskripsi" : "Jaket adalah baju luar yang panjangnya hingga pinggang atau pinggul,dipakai untuk menahan angin dan cuaca dingin.Bukaan jaket terletak di bagian depan dari leher ke bawah."
     },
     {

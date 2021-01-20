@@ -26,7 +26,7 @@ const Speech = (props) => {
             { speaking ?
             (
                 <button onClick={cancel} className="btn btn-primary fs-3">
-                    <img src={"/storage/stop.png"} className="stop-icon" />
+                    <img src={"/images/stop.png"} className="stop-icon" />
                     Berhenti
                 </button>
             )
@@ -39,7 +39,7 @@ const Speech = (props) => {
                     }}
                     className="btn btn-primary fs-3"
                  >
-                    <img src={"/storage/speaker.png"} className="speaker-icon" />
+                    <img src={"/images/speaker.png"} className="speaker-icon" />
                     Nyalakan Suara
                 </button>
             )
