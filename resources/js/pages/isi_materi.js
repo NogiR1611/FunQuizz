@@ -9,8 +9,8 @@ const Speech = (props) => {
     const voice = voices[9];
 
     return (
-        <div className="text-white">
-            <p className="fs-4">Kecepatan Suara : {rate}</p>
+        <div className="text-white button-speed">
+            <p className="kecepatan">Kecepatan Suara : {rate}</p>
             <input
                 type="range"
                 min="0.5"
@@ -24,7 +24,7 @@ const Speech = (props) => {
             /><br/>
             { speaking ?
             (
-                <button onClick={cancel} className="btn btn-primary fs-3">
+                <button onClick={cancel} className="btn btn-primary">
                     <img src={"/images/stop.png"} className="stop-icon" />
                     Berhenti
                 </button>
@@ -36,7 +36,7 @@ const Speech = (props) => {
                         speak({ text:props.text,voice,rate });
                         
                     }}
-                    className="btn btn-primary fs-3"
+                    className="btn btn-primary"
                  >
                     <img src={"/images/speaker.png"} className="speaker-icon" />
                     Nyalakan Suara

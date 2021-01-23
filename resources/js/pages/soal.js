@@ -110,13 +110,13 @@ class Soal extends Component{
                         <div className="col-sm-5">
                             <img src={Questions[currentQuestion].imageQuestion} className="image-question" alt="" />
                         </div>
-                        <div className="col-sm-7">
-                            <p className="fs-2">Apakah nama benda yang ada di samping ?</p>
+                        <div className="col-sm-7 soal">
+                            <p className="asking">Apakah nama benda yang ada di samping ?</p>
                             {Questions[currentQuestion].answerOptions.map((answerOption,index) => (
                                 <button
                                     onClick={() => this.handleAnswerButtonClick(answerOption.isCorrect)}
                                     key={index}
-                                    className="button-answer fs-2"
+                                    className="button-answer"
                                 >
                                     {answerOption.answerText}
                                 </button>

@@ -5,7 +5,7 @@ html{
 body{
     background-image: url("../asset/img/bg.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 100%;
     font-family: 'Raleway', sans-serif;
 }
@@ -29,12 +29,8 @@ body{
     font-size: 28px;
 }
 
-.home{
-    background-image: url("../asset/img/bg.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.form-login .form-label{
+    font-size: 24px;
 }
 
 .list-materi{
@@ -50,6 +46,14 @@ body{
 .item-materi a{
     text-decoration: none;
     color: white;
+}
+
+.item-materi h1{
+    font-size: 24px;
+}
+
+.title-materi{
+    font-size: 28px;
 }
 
 .center-component{
@@ -141,8 +145,8 @@ body{
 }
 
 .image-list{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 .image-item{
@@ -158,18 +162,23 @@ body{
 }
 
 .description{
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .image-question{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     position: relative;
     display: block;
 }
 
+.asking{
+    font-size: 24px;
+}
+
 .button-answer{
+    font-size: 24px;
     display: block;
     margin: 10px 10px;
     width: 220px;
@@ -187,6 +196,10 @@ body{
 
 .button-answer:hover{
     background-color: #41B2A6;
+}
+
+.button-speed button{
+    font-size: 18px; 
 }
 
 .soal-container{
@@ -237,15 +250,15 @@ body{
 }
 
 .stop-icon{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
 }
 
 .column-button{
     display: flex;
     justify-content: center;
-    padding:50px 50px;
+    padding:20px 50px;
 }
 
 .pagination{
@@ -278,5 +291,243 @@ body{
 
     .form-login p{
         font-size: 22px;
+    }
+
+    .image-list{
+        width: 120px;
+        height: 120px;
+    }
+
+    .item-materi h1{
+        font-size: 18px;
+    }
+
+    .list-pagination{
+        font-size: 18px;
+    }
+
+    .column-button{
+        padding: 50px 50px;
+    }
+
+    .description{
+        font-size:22px;
+    }
+
+    .image-item{
+        width: 200px;
+        height: 200px;
+    }
+
+    .button-speed p{
+        font-size: 22px;
+    }
+
+    .button-speed button{
+        font-size: 22px;
+    }
+
+    .image-question{
+        width: 250px;
+        height: 250px;
+    }
+
+    .asking{
+        font-size: 26px;
+    }
+
+    .button-answer{
+        font-size: 20px;
+    }
+
+    .result-score{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .form-login p{
+        font-size: 18px;
+    }
+
+    .form-login .form-label{
+        font-size: 16px;
+    }
+
+    .form-login button{
+        font-size: 14px;
+    }
+
+    .home img{
+        width: 350px;
+        height: 90px;
+    }
+
+    .home p{
+        font-size: 18px;
+    }
+
+    .option-menu{
+        font-size: 18px;
+        width: 250px;
+    }
+
+    .title-materi{
+        font-size: 20px;
+    }
+
+    .image-list{
+        width: 80px;
+        height: 80px;
+    }
+
+    .list-pagination{
+        font-size: 12px;
+    }
+
+    .column-button{
+        padding: 10px 50px;
+    }
+
+    .button-navigation{
+        font-size: 12px;
+    }
+
+    .image-item{
+        width: 120px;
+        height: 120px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .button-speed p{
+        font-size: 16px;
+    }
+
+    .button-speed button{
+        font-size: 16px;
+    }
+
+    .item-page h3{
+        font-size: 20px;
+    }
+
+    .image-question{
+        width: 200px;
+        height: 200px;
+    }
+
+    .asking{
+        font-size: 18px;
+    }
+
+    .button-answer{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:425px){
+    body{
+        background-image: url("../asset/img/bg-425.png");
+        background-size: 100%;
+        background-repeat: repeat;
+        height: 100%;
+    }
+
+    .form-login{
+        width: 200px;
+    }
+
+    .form-login p{
+        font-size: 12px;
+    }
+
+    .form-login .form-label{
+        font-size: 12px;
+    }
+
+    .form-login .form-control{
+        font-size: 12px;
+    }
+
+    .form-login button{
+        font-size: 12px;
+    }
+
+    .image-list{
+        width: 120px;
+        height: 120px;
+    }
+
+    .button-navigation{
+        margin:0px 30px;
+    }
+
+    .image-item{
+        width: 200px;
+        height: 200px;
+        margin: 0px 80px;
+    }
+
+    .column-button{
+        padding: 20px 50px;
+    }
+
+    .button-speed{
+        text-align: center;
+    }
+
+    .image-question{
+        width: 180px;
+        height: 180px;
+    }
+
+    .soal{
+        text-align: center;
+    }
+
+    .soal-container{
+        margin-top: 0px;
+    }
+
+    .button-answer{
+        margin: 10px auto;
+    }
+
+    .result-score{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .home img{
+        width: 300px;
+        height: 75px;
+    }
+    
+    .option-menu{
+        font-size: 14px;
+    }
+
+    .button-navigation{
+        margin:0 20px;
+    }
+
+    .asking{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .image-item{
+        width:150px;
+        height:150px;
+        margin:0px 60px;
+    }
+
+    .column-button{
+        padding: 20px 25px;
     }
 }

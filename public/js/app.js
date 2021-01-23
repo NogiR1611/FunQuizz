@@ -6415,7 +6415,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    background-size: 100%;\r\n    background-repeat: no-repeat;\r\n    height: 100%;\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n    width: 500px;\r\n}\r\n\r\n.form-login p{\r\n    font-size: 28px;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    height: 100%;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    color: white;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.option-menu{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n    width: 350px;\r\n    text-align: center;\r\n}\r\n\r\n.home p{\r\n    font-size: 20px;\r\n    color: #F0ECE3;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.home img{\r\n    width: 500px;\r\n    height: 150px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n    color: #9C978B;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n    color: #9C978B;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n    color: #9C978B;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n    color: #9C978B;\r\n}\r\n\r\n.image-list{\r\n    width: 150px;\r\n    height: 150px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 32px;\r\n}\r\n\r\n.image-question{\r\n    width: 400px;\r\n    height: 400px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}\r\n\r\n.button-answer{\r\n    display: block;\r\n    margin: 10px 10px;\r\n    width: 220px;\r\n    border-radius: 10px;\r\n    background-color: #287EAF;\r\n    border:5px solid #57C0EB;\r\n    transition : all .3s;\r\n    color: white;\r\n}\r\n\r\n.button-answer:focus{\r\n    outline: 0;\r\n    border: 5px solid #57C0EB;\r\n  }\r\n\r\n.button-answer:hover{\r\n    background-color: #41B2A6;\r\n}\r\n\r\n.soal-container{\r\n    margin-top: 150px;\r\n}\r\n\r\n.result-score{\r\n    font-size: 28px;\r\n    color: white;\r\n}\r\n\r\n.button-navigation{\r\n    margin:0px 80px;\r\n    text-decoration: none;\r\n    color: #F3F9F7;\r\n    padding: 10px 10px;\r\n    border: 1px solid black;\r\n    border-radius: 10px;\r\n    transition: all .3s;\r\n}\r\n\r\n#try-quiz{\r\n    background-color: #0EA2FC;\r\n    border: 1px solid #0EA2FC;\r\n}\r\n\r\n#try-quiz:hover{\r\n    background-color: #1E8DAD;\r\n    border: 1px solid #1E8DAD;\r\n    color: #CCD1D2;\r\n}\r\n\r\n#back-menu{\r\n    background-color: #F3B205;\r\n    border: 1px solid #F3B205;\r\n}\r\n\r\n#back-menu:hover{\r\n    background-color: #D39510;\r\n    border: 1px solid #D39510;\r\n    color: #CCD1D2;\r\n}\r\n\r\n.speaker-icon{\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.stop-icon{\r\n    width: 50px;\r\n    height: 50px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.column-button{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:50px 50px;\r\n}\r\n\r\n.pagination{\r\n    margin: 20px 0px;\r\n}\r\n\r\n.list-pagination{\r\n    list-style-type: none;\r\n    display: inline-block;\r\n    padding: 5px 10px;\r\n    font-size: 20px;\r\n    cursor: pointer;\r\n    border: 1px solid #E5E8EA;\r\n    transition: all .3s;\r\n}\r\n\r\n.list-pagination:hover{\r\n    color: #505658;\r\n    background-color: #E5E8EA;\r\n}\r\n\r\n.item-per-page{\r\n    text-align: center;\r\n}\r\n\r\n@media screen and (max-width:1024px){\r\n    .form-login{\r\n        width: 350px;\r\n    }\r\n\r\n    .form-login p{\r\n        font-size: 22px;\r\n    }\r\n}", ""]);
+exports.push([module.i, "html{\r\n    overflow-x : hidden;\r\n}\r\n\r\nbody{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg.png */ "./resources/js/asset/img/bg.png")) + ");\r\n    background-size: 100%;\r\n    background-repeat: repeat;\r\n    height: 100%;\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n\r\n.container{\r\n    height: 100%;\r\n    padding: auto auto;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.form-login{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n    width: 500px;\r\n}\r\n\r\n.form-login p{\r\n    font-size: 28px;\r\n}\r\n\r\n.form-login .form-label{\r\n    font-size: 24px;\r\n}\r\n\r\n.list-materi{\r\n    padding: 10px 0px;\r\n    color: white;\r\n}\r\n\r\n.item-materi{\r\n    text-align: center;\r\n    padding: 0px 0px;\r\n}\r\n\r\n.item-materi a{\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.item-materi h1{\r\n    font-size: 24px;\r\n}\r\n\r\n.title-materi{\r\n    font-size: 28px;\r\n}\r\n\r\n.center-component{\r\n    margin: auto auto;\r\n    background-color: white;\r\n    text-align: center;\r\n    padding: 60px 10px;\r\n}\r\n\r\n.option-menu{\r\n    border: 1px solid black;\r\n    border-radius: 8px;\r\n    padding: 8px;\r\n    text-decoration: none;\r\n    color: #FFF;\r\n    margin: 10px 0px;\r\n    display: block;\r\n    transition: all .3s;\r\n    font-size: 24px;\r\n    width: 350px;\r\n    text-align: center;\r\n}\r\n\r\n.home p{\r\n    font-size: 20px;\r\n    color: #F0ECE3;\r\n}\r\n\r\n.form-login p{\r\n    text-align: center;\r\n}\r\n\r\n.form-login button{\r\n    justify-content: center;\r\n}\r\n\r\n.home img{\r\n    width: 500px;\r\n    height: 150px;\r\n}\r\n\r\n.component-login{\r\n    border: 1px solid black;\r\n}\r\n\r\n\r\n.nilai-skor{\r\n    font-size: 36px;\r\n}\r\n\r\n#belajar{\r\n    background-color: #FABC0B;\r\n    border: 1px solid #FABC0B;\r\n}\r\n\r\n#belajar:hover{\r\n    background-color: #C8940A;\r\n    color: #9C978B;\r\n}\r\n\r\n#mulai{\r\n    background-color: #465A8F;\r\n    border: 1px solid #465A8F;\r\n}\r\n\r\n#mulai:hover{\r\n    background-color: #36436A;\r\n    color: #9C978B;\r\n}\r\n\r\n#lihat-skor{\r\n    background-color: #29BBFE;\r\n    border: 1px solid #29BBFE;\r\n}\r\n\r\n#lihat-skor:hover{\r\n    background-color: #49ADB2;\r\n    color: #9C978B;\r\n}\r\n\r\n#keluar{\r\n    background-color: #D32112;\r\n    border: 1px solid #D32112;\r\n}\r\n\r\n#keluar:hover{\r\n    background-color: #BB1A04;\r\n    color: #9C978B;\r\n}\r\n\r\n.image-list{\r\n    width: 120px;\r\n    height: 120px;\r\n}\r\n\r\n.image-item{\r\n    display: block;\r\n    position: relative;\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.item-page{\r\n    margin: 80px 20px;\r\n}\r\n\r\n.description{\r\n    font-size: 24px;\r\n}\r\n\r\n.image-question{\r\n    width: 300px;\r\n    height: 300px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n    display: block;\r\n}\r\n\r\n.asking{\r\n    font-size: 24px;\r\n}\r\n\r\n.button-answer{\r\n    font-size: 24px;\r\n    display: block;\r\n    margin: 10px 10px;\r\n    width: 220px;\r\n    border-radius: 10px;\r\n    background-color: #287EAF;\r\n    border:5px solid #57C0EB;\r\n    transition : all .3s;\r\n    color: white;\r\n}\r\n\r\n.button-answer:focus{\r\n    outline: 0;\r\n    border: 5px solid #57C0EB;\r\n  }\r\n\r\n.button-answer:hover{\r\n    background-color: #41B2A6;\r\n}\r\n\r\n.button-speed button{\r\n    font-size: 18px; \r\n}\r\n\r\n.soal-container{\r\n    margin-top: 150px;\r\n}\r\n\r\n.result-score{\r\n    font-size: 28px;\r\n    color: white;\r\n}\r\n\r\n.button-navigation{\r\n    margin:0px 80px;\r\n    text-decoration: none;\r\n    color: #F3F9F7;\r\n    padding: 10px 10px;\r\n    border: 1px solid black;\r\n    border-radius: 10px;\r\n    transition: all .3s;\r\n}\r\n\r\n#try-quiz{\r\n    background-color: #0EA2FC;\r\n    border: 1px solid #0EA2FC;\r\n}\r\n\r\n#try-quiz:hover{\r\n    background-color: #1E8DAD;\r\n    border: 1px solid #1E8DAD;\r\n    color: #CCD1D2;\r\n}\r\n\r\n#back-menu{\r\n    background-color: #F3B205;\r\n    border: 1px solid #F3B205;\r\n}\r\n\r\n#back-menu:hover{\r\n    background-color: #D39510;\r\n    border: 1px solid #D39510;\r\n    color: #CCD1D2;\r\n}\r\n\r\n.speaker-icon{\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.stop-icon{\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.column-button{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:20px 50px;\r\n}\r\n\r\n.pagination{\r\n    margin: 20px 0px;\r\n}\r\n\r\n.list-pagination{\r\n    list-style-type: none;\r\n    display: inline-block;\r\n    padding: 5px 10px;\r\n    font-size: 20px;\r\n    cursor: pointer;\r\n    border: 1px solid #E5E8EA;\r\n    transition: all .3s;\r\n}\r\n\r\n.list-pagination:hover{\r\n    color: #505658;\r\n    background-color: #E5E8EA;\r\n}\r\n\r\n.item-per-page{\r\n    text-align: center;\r\n}\r\n\r\n@media screen and (max-width:1024px){\r\n    .form-login{\r\n        width: 350px;\r\n    }\r\n\r\n    .form-login p{\r\n        font-size: 22px;\r\n    }\r\n\r\n    .image-list{\r\n        width: 120px;\r\n        height: 120px;\r\n    }\r\n\r\n    .item-materi h1{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .list-pagination{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .column-button{\r\n        padding: 50px 50px;\r\n    }\r\n\r\n    .description{\r\n        font-size:22px;\r\n    }\r\n\r\n    .image-item{\r\n        width: 200px;\r\n        height: 200px;\r\n    }\r\n\r\n    .button-speed p{\r\n        font-size: 22px;\r\n    }\r\n\r\n    .button-speed button{\r\n        font-size: 22px;\r\n    }\r\n\r\n    .image-question{\r\n        width: 250px;\r\n        height: 250px;\r\n    }\r\n\r\n    .asking{\r\n        font-size: 26px;\r\n    }\r\n\r\n    .button-answer{\r\n        font-size: 20px;\r\n    }\r\n\r\n    .result-score{\r\n        font-size: 22px;\r\n    }\r\n}\r\n\r\n@media screen and (max-width:768px){\r\n    .form-login p{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .form-login .form-label{\r\n        font-size: 16px;\r\n    }\r\n\r\n    .form-login button{\r\n        font-size: 14px;\r\n    }\r\n\r\n    .home img{\r\n        width: 350px;\r\n        height: 90px;\r\n    }\r\n\r\n    .home p{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .option-menu{\r\n        font-size: 18px;\r\n        width: 250px;\r\n    }\r\n\r\n    .title-materi{\r\n        font-size: 20px;\r\n    }\r\n\r\n    .image-list{\r\n        width: 80px;\r\n        height: 80px;\r\n    }\r\n\r\n    .list-pagination{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .column-button{\r\n        padding: 10px 50px;\r\n    }\r\n\r\n    .button-navigation{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .image-item{\r\n        width: 120px;\r\n        height: 120px;\r\n    }\r\n\r\n    .description{\r\n        font-size: 16px;\r\n    }\r\n\r\n    .button-speed p{\r\n        font-size: 16px;\r\n    }\r\n\r\n    .button-speed button{\r\n        font-size: 16px;\r\n    }\r\n\r\n    .item-page h3{\r\n        font-size: 20px;\r\n    }\r\n\r\n    .image-question{\r\n        width: 200px;\r\n        height: 200px;\r\n    }\r\n\r\n    .asking{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .button-answer{\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n@media screen and (max-width:425px){\r\n    body{\r\n        background-image: url(" + escape(__webpack_require__(/*! ../asset/img/bg-425.png */ "./resources/js/asset/img/bg-425.png")) + ");\r\n        background-size: 100%;\r\n        background-repeat: repeat;\r\n        height: 100%;\r\n    }\r\n\r\n    .form-login{\r\n        width: 200px;\r\n    }\r\n\r\n    .form-login p{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .form-login .form-label{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .form-login .form-control{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .form-login button{\r\n        font-size: 12px;\r\n    }\r\n\r\n    .image-list{\r\n        width: 120px;\r\n        height: 120px;\r\n    }\r\n\r\n    .button-navigation{\r\n        margin:0px 30px;\r\n    }\r\n\r\n    .image-item{\r\n        width: 200px;\r\n        height: 200px;\r\n        margin: 0px 80px;\r\n    }\r\n\r\n    .column-button{\r\n        padding: 20px 50px;\r\n    }\r\n\r\n    .button-speed{\r\n        text-align: center;\r\n    }\r\n\r\n    .image-question{\r\n        width: 180px;\r\n        height: 180px;\r\n    }\r\n\r\n    .soal{\r\n        text-align: center;\r\n    }\r\n\r\n    .soal-container{\r\n        margin-top: 0px;\r\n    }\r\n\r\n    .button-answer{\r\n        margin: 10px auto;\r\n    }\r\n\r\n    .result-score{\r\n        font-size: 12px;\r\n    }\r\n}\r\n\r\n@media screen and (max-width:375px){\r\n    .home img{\r\n        width: 300px;\r\n        height: 75px;\r\n    }\r\n    \r\n    .option-menu{\r\n        font-size: 14px;\r\n    }\r\n\r\n    .button-navigation{\r\n        margin:0 20px;\r\n    }\r\n\r\n    .asking{\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n@media screen and (max-width:320px){\r\n    .image-item{\r\n        width:150px;\r\n        height:150px;\r\n        margin:0px 60px;\r\n    }\r\n\r\n    .column-button{\r\n        padding: 20px 25px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -72404,6 +72404,17 @@ __webpack_require__(/*! ./router */ "./resources/js/router.js");
 
 /***/ }),
 
+/***/ "./resources/js/asset/img/bg-425.png":
+/*!*******************************************!*\
+  !*** ./resources/js/asset/img/bg-425.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bg-425.png?436748e26100dbba70318003aac2f694";
+
+/***/ }),
+
 /***/ "./resources/js/asset/img/bg.png":
 /*!***************************************!*\
   !*** ./resources/js/asset/img/bg.png ***!
@@ -72756,9 +72767,9 @@ var Speech = function Speech(props) {
 
   var voice = voices[9];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text-white"
+    className: "text-white button-speed"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "fs-4"
+    className: "kecepatan"
   }, "Kecepatan Suara : ", rate), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "range",
     min: "0.5",
@@ -72771,7 +72782,7 @@ var Speech = function Speech(props) {
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), speaking ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     onClick: cancel,
-    className: "btn btn-primary fs-3"
+    className: "btn btn-primary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/images/stop.png",
     className: "stop-icon"
@@ -72783,7 +72794,7 @@ var Speech = function Speech(props) {
         rate: rate
       });
     },
-    className: "btn btn-primary fs-3"
+    className: "btn btn-primary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/images/speaker.png",
     className: "speaker-icon"
@@ -72998,7 +73009,7 @@ var ListMateri = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "text-center-light fs-2"
+        className: "text-center-light title-materi"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Materi Pembelajaran"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "item-per-page"
       }, currentPage, "/", totalPage)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -73038,10 +73049,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/style.css */ "./resources/js/css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -73065,6 +73078,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -73163,9 +73177,9 @@ var Login = /*#__PURE__*/function (_Component) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "text-center mb-8"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        "class": "form-label fs-5"
+        className: "form-label"
       }, "Nama : "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        "class": "form-control",
+        className: "form-control",
         type: "text",
         value: username,
         onChange: function onChange(event) {
@@ -73186,6 +73200,10 @@ var Login = /*#__PURE__*/function (_Component) {
 
   return Login;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+_defineProperty(Login, "contextTypes", {
+  router: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object
+});
 
 /* harmony default export */ __webpack_exports__["default"] = (Login);
 
@@ -73667,16 +73685,16 @@ var Soal = /*#__PURE__*/function (_Component) {
         className: "image-question",
         alt: ""
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-sm-7"
+        className: "col-sm-7 soal"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "fs-2"
+        className: "asking"
       }, "Apakah nama benda yang ada di samping ?"), _data_soal_json__WEBPACK_IMPORTED_MODULE_1__[currentQuestion].answerOptions.map(function (answerOption, index) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           onClick: function onClick() {
             return _this2.handleAnswerButtonClick(answerOption.isCorrect);
           },
           key: index,
-          className: "button-answer fs-2"
+          className: "button-answer"
         }, answerOption.answerText);
       })))));
     }

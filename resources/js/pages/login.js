@@ -1,9 +1,14 @@
 import React,{Component} from "react";
 import {Redirect} from "react-router-dom";
+import PropTypes from "prop-types";
 import axios from "axios";
 import "../css/style.css";
 
 class Login extends Component{
+    static contextTypes = {
+        router: PropTypes.object
+      }
+
     constructor(props){
         super(props);
         this.state = {
@@ -41,7 +46,7 @@ class Login extends Component{
                 isLoggedIn : true,
                 username : data.username
             };
-            
+
             localStorage["appState"] = JSON.stringify(appState);
             this.setState({
                 isLoggedIn : appState.isLoggedIn,
@@ -58,15 +63,16 @@ class Login extends Component{
         if (redirect){
             return (<Redirect to={from}/>);
         }
+
         return (
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center bg-login">
                 <form className="p-3 border form-login" onSubmit={this.onSubmit}>
                     <p className="align-middle">Ayo masukin nama kamu</p>
                     <input type="hidden" name="csrf-token" value="{{{ csrf_token() }}}" />
                     <div className="text-center mb-8">
-                        <label class="form-label fs-5">Nama : </label><br/>
+                        <label className="form-label">Nama : </label><br/>
                         <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             value={username}
                             onChange={event => this.setState({ username : event.target.value })}

@@ -61,7 +61,7 @@ class ListMateri extends Component{
         const totalPage = PostData.length/itemsPerPage;
         return (
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center list-materi">
-                    <div className="text-center-light fs-2">
+                    <div className="text-center-light title-materi">
                         <p>Materi Pembelajaran</p>
                         <p className="item-per-page">{currentPage}/{totalPage}</p>
                     </div>
